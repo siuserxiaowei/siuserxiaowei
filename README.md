@@ -63,6 +63,18 @@
 更完整的项目地图和学习路径：
 [https://siuserxiaowei.github.io/](https://siuserxiaowei.github.io/)
 
+<!-- SIUSER-SEO-INTRO:START -->
+
+## 项目介绍 / Project Introduction
+
+**中文介绍**：我的 GitHub Profile README，用视觉化模块展示 AI 工具实验、内容系统建设、视觉设计和正在构建的项目。
+
+**English**: My GitHub Profile README, using visual SVG modules to present AI tool experiments, content systems, visual design, and active projects.
+
+**SEO 关键词 / SEO Keywords**: GitHub Profile README, AI portfolio, personal branding, SVG dashboard, AI 工具实验
+
+<!-- SIUSER-SEO-INTRO:END -->
+
 <!-- SIUSER-CONTACT:START -->
 
 ## 联系我 / Contact
