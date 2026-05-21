@@ -1,0 +1,109 @@
+<svg width="920" height="370" viewBox="0 0 920 370" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">项目星座</title>
+  <desc id="desc">Generated profile visual for siuserxiaowei.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="920" y2="370">
+      <stop offset="0" stop-color="#08261d"/>
+      <stop offset="0.58" stop-color="#07130f"/>
+      <stop offset="1" stop-color="#092f3a"/>
+    </linearGradient>
+    <radialGradient id="pulse" cx="50%" cy="36%" r="70%">
+      <stop offset="0" stop-color="#00e6a8" stop-opacity="0.28"/>
+      <stop offset="0.45" stop-color="#63d8ff" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#07130f" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="920" height="370" rx="28" fill="url(#bg)"/>
+  <rect x="1" y="1" width="918" height="368" rx="27" stroke="#2e6b5a" stroke-opacity="0.72"/>
+  <rect width="920" height="370" rx="28" fill="url(#pulse)"/>
+  <g opacity="0.24">
+    <path d="M40 0V370" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M80 0V370" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M120 0V370" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M160 0V370" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M200 0V370" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M240 0V370" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M280 0V370" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M320 0V370" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M360 0V370" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M400 0V370" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M440 0V370" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M480 0V370" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M520 0V370" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M560 0V370" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M600 0V370" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M640 0V370" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M680 0V370" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M720 0V370" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M760 0V370" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M800 0V370" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M840 0V370" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M880 0V370" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M0 40H920" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M0 80H920" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M0 120H920" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M0 160H920" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M0 200H920" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M0 240H920" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M0 280H920" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M0 320H920" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M0 360H920" stroke="#6bdcc6" stroke-width="0.6"/>
+  </g>
+  
+  <text x="48" y="54" fill="#00e6a8" font-family="Menlo, Consolas, monospace" font-size="14" letter-spacing="4">PROJECT CONSTELLATION</text>
+  <text x="48" y="92" fill="#f7f5ea" font-family="Georgia, STSong, serif" font-size="36" font-weight="700">把学习变成公开作品</text>
+  <g transform="translate(28 38)">
+    <path d="M92 116C172.0 76,172.0 122,252 82" stroke="#63d8ff" stroke-opacity="0.25"/><path d="M252 82C346.0 42,346.0 172,440 132" stroke="#63d8ff" stroke-opacity="0.25"/><path d="M440 132C541.0 92,541.0 132,642 92" stroke="#63d8ff" stroke-opacity="0.25"/><path d="M642 92C640.0 52,640.0 266,638 226" stroke="#63d8ff" stroke-opacity="0.25"/><path d="M638 226C547.0 186,547.0 298,456 258" stroke="#63d8ff" stroke-opacity="0.25"/><path d="M456 258C358.0 218,358.0 300,260 260" stroke="#63d8ff" stroke-opacity="0.25"/><path d="M260 260C186.0 220,186.0 270,112 230" stroke="#63d8ff" stroke-opacity="0.25"/>
+    
+    <g transform="translate(92 116)">
+      <circle r="10" fill="#00e6a8" filter="url(#glow)"/>
+      <rect x="18" y="-20" width="178" height="42" rx="12" fill="#0c2a23" stroke="#2e6b5a"/>
+      <text x="32" y="-2" fill="#f7f5ea" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="13" font-weight="800">visual-taste-lab</text>
+      <text x="32" y="16" fill="#00e6a8" font-family="Menlo, Consolas, monospace" font-size="11">视觉设计</text>
+    </g>
+    <g transform="translate(252 82)">
+      <circle r="10" fill="#63d8ff" filter="url(#glow)"/>
+      <rect x="18" y="-20" width="178" height="42" rx="12" fill="#0c2a23" stroke="#2e6b5a"/>
+      <text x="32" y="-2" fill="#f7f5ea" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="13" font-weight="800">wechat-to-obsidian</text>
+      <text x="32" y="16" fill="#63d8ff" font-family="Menlo, Consolas, monospace" font-size="11">内容系统建设</text>
+    </g>
+    <g transform="translate(440 132)">
+      <circle r="10" fill="#d8ff6a" filter="url(#glow)"/>
+      <rect x="18" y="-20" width="178" height="42" rx="12" fill="#0c2a23" stroke="#2e6b5a"/>
+      <text x="32" y="-2" fill="#f7f5ea" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="13" font-weight="800">AI 工程纪律</text>
+      <text x="32" y="16" fill="#d8ff6a" font-family="Menlo, Consolas, monospace" font-size="11">AI 工具实验</text>
+    </g>
+    <g transform="translate(642 92)">
+      <circle r="10" fill="#8df7d0" filter="url(#glow)"/>
+      <rect x="18" y="-20" width="178" height="42" rx="12" fill="#0c2a23" stroke="#2e6b5a"/>
+      <text x="32" y="-2" fill="#f7f5ea" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="13" font-weight="800">群日报 Skill</text>
+      <text x="32" y="16" fill="#8df7d0" font-family="Menlo, Consolas, monospace" font-size="11">内容系统建设</text>
+    </g>
+    <g transform="translate(638 226)">
+      <circle r="10" fill="#00e6a8" filter="url(#glow)"/>
+      <rect x="18" y="-20" width="178" height="42" rx="12" fill="#0c2a23" stroke="#2e6b5a"/>
+      <text x="32" y="-2" fill="#f7f5ea" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="13" font-weight="800">daily-card</text>
+      <text x="32" y="16" fill="#00e6a8" font-family="Menlo, Consolas, monospace" font-size="11">内容系统建设</text>
+    </g>
+    <g transform="translate(456 258)">
+      <circle r="10" fill="#63d8ff" filter="url(#glow)"/>
+      <rect x="18" y="-20" width="178" height="42" rx="12" fill="#0c2a23" stroke="#2e6b5a"/>
+      <text x="32" y="-2" fill="#f7f5ea" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="13" font-weight="800">content toolkit</text>
+      <text x="32" y="16" fill="#63d8ff" font-family="Menlo, Consolas, monospace" font-size="11">AI 工具实验</text>
+    </g>
+    <g transform="translate(260 260)">
+      <circle r="10" fill="#d8ff6a" filter="url(#glow)"/>
+      <rect x="18" y="-20" width="178" height="42" rx="12" fill="#0c2a23" stroke="#2e6b5a"/>
+      <text x="32" y="-2" fill="#f7f5ea" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="13" font-weight="800">OPC policy</text>
+      <text x="32" y="16" fill="#d8ff6a" font-family="Menlo, Consolas, monospace" font-size="11">AI 工具实验</text>
+    </g>
+    <g transform="translate(112 230)">
+      <circle r="10" fill="#8df7d0" filter="url(#glow)"/>
+      <rect x="18" y="-20" width="178" height="42" rx="12" fill="#0c2a23" stroke="#2e6b5a"/>
+      <text x="32" y="-2" fill="#f7f5ea" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="13" font-weight="800">x-md-composer</text>
+      <text x="32" y="16" fill="#8df7d0" font-family="Menlo, Consolas, monospace" font-size="11">视觉设计</text>
+    </g>
+  </g>
+
+</svg>

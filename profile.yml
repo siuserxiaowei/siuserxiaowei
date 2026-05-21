@@ -1,0 +1,83 @@
+profile:
+  name: "小伟"
+  username: "siuserxiaowei"
+  headline: "小白学 AI，也能搭出自己的工具系统。"
+  subtitle: "AI 工具实验者 / 内容系统建设者 / 视觉设计学习者"
+  story: "我把每天学到的 AI、自动化、内容整理和视觉设计，做成可运行的项目。这里记录一个普通人如何从使用工具，走到搭建工具。"
+  website: "https://siuserxiaowei.github.io/"
+  github: "https://github.com/siuserxiaowei"
+  philosophy: "先做出能用的版本，再把它变得清楚、漂亮、可复制。"
+
+metrics:
+  - label: "Public repos"
+    value: "20+"
+  - label: "Learning tracks"
+    value: "3"
+  - label: "Featured builds"
+    value: "8"
+  - label: "Main audience"
+    value: "AI beginners"
+
+tracks:
+  - name: "AI 工具实验"
+    score: 88
+    color: "#00e6a8"
+    summary: "把零散想法做成可运行的工具、Skill、自动化工作台。"
+    tags: ["Codex", "Agent", "MCP", "Python"]
+  - name: "内容系统建设"
+    score: 92
+    color: "#63d8ff"
+    summary: "微信、Obsidian、日报、知识库，变成一套长期沉淀流水线。"
+    tags: ["WeChat", "Obsidian", "Digest", "Knowledge Base"]
+  - name: "视觉设计"
+    score: 82
+    color: "#d8ff6a"
+    summary: "用 VI-first 的方法让 AI 生成的页面少一点模板味，多一点人味。"
+    tags: ["Visual Taste", "HTML", "Cards", "Pages"]
+
+projects:
+  - name: "visual-taste-lab"
+    track: "视觉设计"
+    repo: "https://github.com/siuserxiaowei/visual-taste-lab"
+    demo: "https://siuserxiaowei.github.io/visual-taste-lab/"
+    description: "给 Codex/Claude Code 使用的视觉审美 Skill，让 AI 先做视觉身份审计再写页面。"
+  - name: "wechat-to-obsidian"
+    track: "内容系统建设"
+    repo: "https://github.com/siuserxiaowei/wechat-to-obsidian"
+    demo: ""
+    description: "把微信和 WeFlow 聊天记录、文件、链接导入 Obsidian 的本地知识桥。"
+  - name: "ai-coding-knowledge-framework"
+    track: "AI 工具实验"
+    repo: "https://github.com/siuserxiaowei/ai-coding-knowledge-framework"
+    demo: "https://siuserxiaowei.github.io/ai-coding-knowledge-framework/"
+    description: "AI 时代的软件工程纪律知识框架，含研究档案、杂志长卷、蓝图控制台三版页面。"
+  - name: "wechat-daily-report-skill"
+    track: "内容系统建设"
+    repo: "https://github.com/siuserxiaowei/wechat-daily-report-skill"
+    demo: "https://siuserxiaowei.github.io/wechat-daily-report-skill/"
+    description: "微信群日报 Skill，输出聊天气泡风格 HTML 与长图报告。"
+  - name: "daily-card-public"
+    track: "内容系统建设"
+    repo: "https://github.com/siuserxiaowei/daily-card-public"
+    demo: "https://siuserxiaowei.github.io/daily-card-public/"
+    description: "面向公开分享的 AI 学习卡片和话题摘要。"
+  - name: "content-creator-toolkit"
+    track: "AI 工具实验"
+    repo: "https://github.com/siuserxiaowei/content-creator-toolkit"
+    demo: ""
+    description: "多平台 KOL 监控与 AI 选题分析系统。"
+  - name: "opc-policy"
+    track: "AI 工具实验"
+    repo: "https://github.com/siuserxiaowei/opc-policy"
+    demo: "https://siuserxiaowei.github.io/opc-policy/"
+    description: "全国 OPC 政策导航，把政策资料变成可查询的工具页面。"
+  - name: "x-md-composer"
+    track: "视觉设计"
+    repo: "https://github.com/siuserxiaowei/x-md-composer"
+    demo: ""
+    description: "本地优先的 Markdown 到 X 长文/帖子串编辑器。"
+
+now:
+  - "把个人学习轨迹整理成可复制的 AI 入门路径。"
+  - "把微信、Obsidian、日报、知识库接成稳定内容系统。"
+  - "持续打磨 AI 生成页面的视觉语言和工程纪律。"

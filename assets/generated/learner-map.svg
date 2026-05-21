@@ -1,0 +1,79 @@
+<svg width="920" height="430" viewBox="0 0 920 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">学习者星图</title>
+  <desc id="desc">Generated profile visual for siuserxiaowei.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="920" y2="430">
+      <stop offset="0" stop-color="#08261d"/>
+      <stop offset="0.58" stop-color="#07130f"/>
+      <stop offset="1" stop-color="#092f3a"/>
+    </linearGradient>
+    <radialGradient id="pulse" cx="50%" cy="36%" r="70%">
+      <stop offset="0" stop-color="#00e6a8" stop-opacity="0.28"/>
+      <stop offset="0.45" stop-color="#63d8ff" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#07130f" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="920" height="430" rx="28" fill="url(#bg)"/>
+  <rect x="1" y="1" width="918" height="428" rx="27" stroke="#2e6b5a" stroke-opacity="0.72"/>
+  <rect width="920" height="430" rx="28" fill="url(#pulse)"/>
+  <g opacity="0.24">
+    <path d="M40 0V430" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M80 0V430" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M120 0V430" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M160 0V430" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M200 0V430" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M240 0V430" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M280 0V430" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M320 0V430" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M360 0V430" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M400 0V430" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M440 0V430" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M480 0V430" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M520 0V430" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M560 0V430" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M600 0V430" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M640 0V430" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M680 0V430" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M720 0V430" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M760 0V430" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M800 0V430" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M840 0V430" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M880 0V430" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M0 40H920" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M0 80H920" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M0 120H920" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M0 160H920" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M0 200H920" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M0 240H920" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M0 280H920" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M0 320H920" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M0 360H920" stroke="#6bdcc6" stroke-width="0.6"/>
+    <path d="M0 400H920" stroke="#6bdcc6" stroke-width="0.6"/>
+  </g>
+  
+  <g transform="translate(52 48)">
+    <text x="0" y="0" fill="#00e6a8" font-family="Menlo, Consolas, monospace" font-size="15" letter-spacing="4">LEARNING SYSTEM / AI BEGINNER BUILD LOG</text>
+    <text x="0" y="78" fill="#f7f5ea" font-family="Georgia, STSong, serif" font-size="50" font-weight="700">小白学 AI，也能搭出</text>
+    <text x="0" y="134" fill="#f7f5ea" font-family="Georgia, STSong, serif" font-size="50" font-weight="700">自己的工具系统。</text>
+    <text x="2" y="178" fill="#b8cec5" font-family="Avenir Next, Noto Sans SC, PingFang SC, sans-serif" font-size="20" font-weight="500">我把每天学到的 AI、自动化、内容整理和视觉设计，做成可</text>
+<text x="2" y="206" fill="#b8cec5" font-family="Avenir Next, Noto Sans SC, PingFang SC, sans-serif" font-size="20" font-weight="500">运行的项目。这里记录一个普通人如何从使用工具，走到搭建</text>
+<text x="2" y="234" fill="#b8cec5" font-family="Avenir Next, Noto Sans SC, PingFang SC, sans-serif" font-size="20" font-weight="500">工具。</text>
+    <rect x="0" y="236" width="304" height="46" rx="23" fill="#0d3027" stroke="#3b7a68"/>
+    <text x="22" y="266" fill="#d8ff6a" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="17" font-weight="700">AI 工具实验者 / 内容系统建设者 / 视觉设计学习者</text>
+    <text x="0" y="342" fill="#63d8ff" font-family="Menlo, Consolas, monospace" font-size="15">https://siuserxiaowei.github.io/</text>
+  </g>
+  <g transform="translate(610 70)">
+    <circle cx="128" cy="128" r="108" stroke="#63d8ff" stroke-opacity="0.35"/>
+    <circle cx="128" cy="128" r="70" stroke="#00e6a8" stroke-opacity="0.36"/>
+    <path d="M128 22C200 52 236 92 235 156C184 146 154 174 128 236C102 174 72 146 21 156C20 92 56 52 128 22Z" fill="#0e342a" stroke="#00e6a8" stroke-width="2"/>
+    <circle cx="128" cy="128" r="10" fill="#d8ff6a" filter="url(#glow)"/>
+    <circle cx="62" cy="90" r="5" fill="#63d8ff"/>
+    <circle cx="204" cy="96" r="5" fill="#00e6a8"/>
+    <circle cx="92" cy="194" r="5" fill="#d8ff6a"/>
+    <circle cx="196" cy="192" r="5" fill="#63d8ff"/>
+    <path d="M62 90L128 128L204 96M128 128L92 194M128 128L196 192" stroke="#79f5db" stroke-opacity="0.56"/>
+    <text x="16" y="292" fill="#f7f5ea" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="17" font-weight="800">Learning notes -> working tools</text>
+  </g>
+
+</svg>
