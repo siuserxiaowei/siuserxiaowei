@@ -1,0 +1,88 @@
+<svg width="850" height="330" viewBox="0 0 850 330" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Project Constellation</title>
+  <desc id="desc">Custom GitHub profile SVG for siuserxiaowei.</desc>
+  <defs>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#f6a623" stop-opacity="0.36"/>
+      <stop offset="0.42" stop-color="#10233b" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#070b13" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="850" y2="330">
+      <stop offset="0" stop-color="#0d1522"/>
+      <stop offset="0.58" stop-color="#09101b"/>
+      <stop offset="1" stop-color="#11192a"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="850" height="330" rx="18" fill="url(#panel)"/>
+  <rect x="1" y="1" width="848" height="328" rx="17" stroke="#273a52"/>
+  <rect width="850" height="330" rx="18" fill="url(#core)"/>
+  <g opacity="0.72"><circle cx="35" cy="74" r="1.8" fill="#00d9ff" opacity="0.8"/>
+<circle cx="82" cy="208" r="1.2" fill="#8fa1ba" opacity="0.8"/>
+<circle cx="126" cy="118" r="0.9" fill="#f6a623" opacity="0.8"/>
+<circle cx="164" cy="246" r="1.5" fill="#8fa1ba" opacity="0.8"/>
+<circle cx="208" cy="48" r="1.1" fill="#9b7cff" opacity="0.8"/>
+<circle cx="247" cy="179" r="1.0" fill="#8fa1ba" opacity="0.8"/>
+<circle cx="298" cy="96" r="1.3" fill="#00d9ff" opacity="0.8"/>
+<circle cx="344" cy="255" r="1.1" fill="#f6a623" opacity="0.8"/>
+<circle cx="387" cy="137" r="1.5" fill="#8fa1ba" opacity="0.8"/>
+<circle cx="428" cy="64" r="1.0" fill="#9b7cff" opacity="0.8"/>
+<circle cx="475" cy="221" r="1.2" fill="#8fa1ba" opacity="0.8"/>
+<circle cx="519" cy="87" r="1.3" fill="#00d9ff" opacity="0.8"/>
+<circle cx="562" cy="152" r="1.0" fill="#8fa1ba" opacity="0.8"/>
+<circle cx="606" cy="42" r="1.5" fill="#9b7cff" opacity="0.8"/>
+<circle cx="648" cy="236" r="1.1" fill="#8fa1ba" opacity="0.8"/>
+<circle cx="690" cy="111" r="1.8" fill="#00d9ff" opacity="0.8"/>
+<circle cx="734" cy="203" r="1.1" fill="#f6a623" opacity="0.8"/>
+<circle cx="781" cy="71" r="1.2" fill="#8fa1ba" opacity="0.8"/>
+<circle cx="816" cy="252" r="1.7" fill="#9b7cff" opacity="0.8"/></g>
+  
+  <text x="42" y="52" fill="#8fa1ba" font-family="Menlo, Consolas, monospace" font-size="14" letter-spacing="7">PROJECT CONSTELLATION</text>
+  <text x="42" y="84" fill="#f4f7fb" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="22" font-weight="850">From notes to running tools</text>
+  <g transform="translate(18 34)">
+    <path d="M94 112C172.0 60,172.0 126,250 78" stroke="#4db8ff" stroke-width="1.5" stroke-opacity="0.33"/><path d="M250 78C329.0 26,329.0 168,408 120" stroke="#f6a623" stroke-width="1.5" stroke-opacity="0.33"/><path d="M408 120C513.0 68,513.0 136,618 88" stroke="#9b7cff" stroke-width="1.5" stroke-opacity="0.33"/><path d="M618 88C655.0 36,655.0 252,692 204" stroke="#00e6a8" stroke-width="1.5" stroke-opacity="0.33"/><path d="M692 204C601.0 152,601.0 290,510 242" stroke="#00d9ff" stroke-width="1.5" stroke-opacity="0.33"/><path d="M510 242C407.0 190,407.0 284,304 236" stroke="#4db8ff" stroke-width="1.5" stroke-opacity="0.33"/><path d="M304 236C213.0 184,213.0 262,122 214" stroke="#f6a623" stroke-width="1.5" stroke-opacity="0.33"/>
+    
+    <g transform="translate(94 112)">
+      <circle r="7.5" fill="#00d9ff" filter="url(#glow)"/>
+      <text x="18" y="-4" fill="#f4f7fb" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="14" font-weight="800">Visual Taste</text>
+      <text x="18" y="15" fill="#00d9ff" font-family="Menlo, Consolas, monospace" font-size="10">视觉设计</text>
+    </g>
+    <g transform="translate(250 78)">
+      <circle r="7.5" fill="#4db8ff" filter="url(#glow)"/>
+      <text x="18" y="-4" fill="#f4f7fb" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="14" font-weight="800">Obsidian</text>
+      <text x="18" y="15" fill="#4db8ff" font-family="Menlo, Consolas, monospace" font-size="10">内容系统建设</text>
+    </g>
+    <g transform="translate(408 120)">
+      <circle r="7.5" fill="#f6a623" filter="url(#glow)"/>
+      <text x="18" y="-4" fill="#f4f7fb" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="14" font-weight="800">AI Discipline</text>
+      <text x="18" y="15" fill="#f6a623" font-family="Menlo, Consolas, monospace" font-size="10">AI 工具实验</text>
+    </g>
+    <g transform="translate(618 88)">
+      <circle r="7.5" fill="#9b7cff" filter="url(#glow)"/>
+      <text x="18" y="-4" fill="#f4f7fb" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="14" font-weight="800">Daily Report</text>
+      <text x="18" y="15" fill="#9b7cff" font-family="Menlo, Consolas, monospace" font-size="10">内容系统建设</text>
+    </g>
+    <g transform="translate(692 204)">
+      <circle r="7.5" fill="#00e6a8" filter="url(#glow)"/>
+      <text x="18" y="-4" fill="#f4f7fb" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="14" font-weight="800">Daily Cards</text>
+      <text x="18" y="15" fill="#00e6a8" font-family="Menlo, Consolas, monospace" font-size="10">内容系统建设</text>
+    </g>
+    <g transform="translate(510 242)">
+      <circle r="7.5" fill="#00d9ff" filter="url(#glow)"/>
+      <text x="18" y="-4" fill="#f4f7fb" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="14" font-weight="800">Creator Toolkit</text>
+      <text x="18" y="15" fill="#00d9ff" font-family="Menlo, Consolas, monospace" font-size="10">AI 工具实验</text>
+    </g>
+    <g transform="translate(304 236)">
+      <circle r="7.5" fill="#4db8ff" filter="url(#glow)"/>
+      <text x="18" y="-4" fill="#f4f7fb" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="14" font-weight="800">OPC Policy</text>
+      <text x="18" y="15" fill="#4db8ff" font-family="Menlo, Consolas, monospace" font-size="10">AI 工具实验</text>
+    </g>
+    <g transform="translate(122 214)">
+      <circle r="7.5" fill="#f6a623" filter="url(#glow)"/>
+      <text x="18" y="-4" fill="#f4f7fb" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="14" font-weight="800">X Composer</text>
+      <text x="18" y="15" fill="#f6a623" font-family="Menlo, Consolas, monospace" font-size="10">视觉设计</text>
+    </g>
+  </g>
+  <text x="42" y="304" fill="#8fa1ba" font-family="Menlo, Consolas, monospace" font-size="13">visual-taste-lab · ai-coding-knowledge-framework · wechat-to-obsidian</text>
+
+</svg>

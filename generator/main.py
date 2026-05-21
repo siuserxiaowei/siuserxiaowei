@@ -11,29 +11,35 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets" / "generated"
 
 PALETTE = {
-    "ink": "#07130f",
-    "panel": "#0b211a",
-    "paper": "#f7f5ea",
-    "muted": "#b8cec5",
+    "bg": "#070b13",
+    "panel": "#0d1522",
+    "panel_2": "#111d2d",
+    "line": "#23364d",
+    "soft": "#8fa1ba",
+    "text": "#f4f7fb",
+    "cyan": "#00d9ff",
+    "blue": "#4db8ff",
+    "purple": "#9b7cff",
+    "amber": "#f6a623",
     "green": "#00e6a8",
-    "blue": "#63d8ff",
-    "lime": "#d8ff6a",
-    "amber": "#ffd166",
-    "line": "#245145",
 }
 
 SHORT_LABELS = {
-    "visual-taste-lab": "visual-taste-lab",
-    "wechat-to-obsidian": "wechat-to-obsidian",
-    "ai-coding-knowledge-framework": "AI 工程纪律",
-    "wechat-daily-report-skill": "群日报 Skill",
-    "daily-card-public": "daily-card",
-    "content-creator-toolkit": "content toolkit",
-    "opc-policy": "OPC policy",
-    "x-md-composer": "x-md-composer",
+    "visual-taste-lab": "Visual Taste",
+    "wechat-to-obsidian": "Obsidian",
+    "ai-coding-knowledge-framework": "AI Discipline",
+    "wechat-daily-report-skill": "Daily Report",
+    "daily-card-public": "Daily Cards",
+    "content-creator-toolkit": "Creator Toolkit",
+    "opc-policy": "OPC Policy",
+    "x-md-composer": "X Composer",
 }
 
 LEGACY_FILES = [
+    "intro-lab.svg",
+    "skill-radar.svg",
+    "project-map.svg",
+    "now-shipping.svg",
     "learner-map.svg",
     "capability-radar.svg",
     "project-constellation.svg",
@@ -49,228 +55,202 @@ def wrap(text: str, limit: int) -> list[str]:
     lines: list[str] = []
     current = ""
     for char in text:
-        next_value = current + char
-        weight = sum(2 if ord(c) > 127 else 1 for c in next_value)
-        if weight > limit and current:
+        candidate = current + char
+        width = sum(2 if ord(c) > 127 else 1 for c in candidate)
+        if width > limit and current:
             lines.append(current)
             current = char
         else:
-            current = next_value
+            current = candidate
     if current:
         lines.append(current)
     return lines
 
 
-def grid(width: int, height: int) -> str:
-    lines = []
-    for x in range(40, width, 40):
-        lines.append(f'<path d="M{x} 0V{height}" stroke="#6bdcc6" stroke-width="0.6"/>')
-    for y in range(40, height, 40):
-        lines.append(f'<path d="M0 {y}H{width}" stroke="#6bdcc6" stroke-width="0.6"/>')
-    return "\n    ".join(lines)
-
-
 def text_lines(lines: list[str], x: int, y: int, size: int, color: str, weight: int = 500) -> str:
-    items = []
-    for idx, line in enumerate(lines):
-        items.append(
-            f'<text x="{x}" y="{y + idx * int(size * 1.35)}" fill="{color}" '
-            f'font-family="Avenir Next, Noto Sans SC, PingFang SC, sans-serif" '
-            f'font-size="{size}" font-weight="{weight}">{esc(line)}</text>'
-        )
-    return "\n".join(items)
+    return "\n".join(
+        f'<text x="{x}" y="{y + idx * int(size * 1.38)}" fill="{color}" '
+        f'font-family="Avenir Next, Noto Sans SC, PingFang SC, sans-serif" '
+        f'font-size="{size}" font-weight="{weight}">{esc(line)}</text>'
+        for idx, line in enumerate(lines)
+    )
 
 
-def svg_frame(width: int, height: int, title: str, body: str, accent: str = "#00e6a8") -> str:
+def stars(width: int, height: int) -> str:
+    points = [
+        (35, 74, 1.8, PALETTE["cyan"]), (82, 208, 1.2, PALETTE["soft"]),
+        (126, 118, 0.9, PALETTE["amber"]), (164, 246, 1.5, PALETTE["soft"]),
+        (208, 48, 1.1, PALETTE["purple"]), (247, 179, 1.0, PALETTE["soft"]),
+        (298, 96, 1.3, PALETTE["cyan"]), (344, 255, 1.1, PALETTE["amber"]),
+        (387, 137, 1.5, PALETTE["soft"]), (428, 64, 1.0, PALETTE["purple"]),
+        (475, 221, 1.2, PALETTE["soft"]), (519, 87, 1.3, PALETTE["cyan"]),
+        (562, 152, 1.0, PALETTE["soft"]), (606, 42, 1.5, PALETTE["purple"]),
+        (648, 236, 1.1, PALETTE["soft"]), (690, 111, 1.8, PALETTE["cyan"]),
+        (734, 203, 1.1, PALETTE["amber"]), (781, 71, 1.2, PALETTE["soft"]),
+        (816, 252, 1.7, PALETTE["purple"]),
+    ]
+    return "\n".join(
+        f'<circle cx="{x}" cy="{min(y, height - 18)}" r="{r}" fill="{color}" opacity="0.8"/>'
+        for x, y, r, color in points
+        if x < width and y < height
+    )
+
+
+def svg_frame(width: int, height: int, title: str, body: str, accent: str) -> str:
     return f"""<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">{esc(title)}</title>
-  <desc id="desc">Generated profile visual for siuserxiaowei.</desc>
+  <desc id="desc">Custom GitHub profile SVG for siuserxiaowei.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="{width}" y2="{height}">
-      <stop offset="0" stop-color="#08261d"/>
-      <stop offset="0.58" stop-color="#07130f"/>
-      <stop offset="1" stop-color="#092f3a"/>
-    </linearGradient>
-    <radialGradient id="pulse" cx="50%" cy="36%" r="70%">
-      <stop offset="0" stop-color="{accent}" stop-opacity="0.28"/>
-      <stop offset="0.45" stop-color="#63d8ff" stop-opacity="0.09"/>
-      <stop offset="1" stop-color="#07130f" stop-opacity="0"/>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="{accent}" stop-opacity="0.36"/>
+      <stop offset="0.42" stop-color="#10233b" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#070b13" stop-opacity="0"/>
     </radialGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="{width}" y2="{height}">
+      <stop offset="0" stop-color="#0d1522"/>
+      <stop offset="0.58" stop-color="#09101b"/>
+      <stop offset="1" stop-color="#11192a"/>
+    </linearGradient>
     <filter id="glow"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
-  <rect width="{width}" height="{height}" rx="28" fill="url(#bg)"/>
-  <rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="27" stroke="#2e6b5a" stroke-opacity="0.72"/>
-  <rect width="{width}" height="{height}" rx="28" fill="url(#pulse)"/>
-  <g opacity="0.24">
-    {grid(width, height)}
-  </g>
+  <rect width="{width}" height="{height}" rx="18" fill="url(#panel)"/>
+  <rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="17" stroke="#273a52"/>
+  <rect width="{width}" height="{height}" rx="18" fill="url(#core)"/>
+  <g opacity="0.72">{stars(width, height)}</g>
   {body}
 </svg>
 """
 
 
-def render_intro_lab(data: dict) -> str:
-    p = data["profile"]
+def orbit(cx: int, cy: int, rx: int, ry: int, color: str, rotate: int = 0, opacity: float = 0.72) -> str:
+    return (
+        f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" transform="rotate({rotate} {cx} {cy})" '
+        f'fill="none" stroke="{color}" stroke-width="2" stroke-opacity="{opacity}"/>'
+    )
+
+
+def orbit_node(cx: int, cy: int, rx: int, ry: int, angle: int, color: str, rotate: int = 0) -> tuple[float, float, str]:
+    rad = math.radians(angle)
+    x = rx * math.cos(rad)
+    y = ry * math.sin(rad)
+    rot = math.radians(rotate)
+    px = cx + x * math.cos(rot) - y * math.sin(rot)
+    py = cy + x * math.sin(rot) + y * math.cos(rot)
+    return px, py, f'<circle cx="{px:.1f}" cy="{py:.1f}" r="5.5" fill="{color}" filter="url(#glow)"/>'
+
+
+def render_galaxy_header(data: dict) -> str:
+    profile = data["profile"]
     body = f"""
-  <g transform="translate(50 42)">
-    <text x="0" y="0" fill="{PALETTE['green']}" font-family="Menlo, Consolas, monospace" font-size="14" letter-spacing="4">INTRO LAB / BEGINNER TO BUILDER</text>
-    <text x="0" y="66" fill="{PALETTE['paper']}" font-family="Georgia, STSong, serif" font-size="48" font-weight="700">小白学 AI，也能搭出</text>
-    <text x="0" y="120" fill="{PALETTE['paper']}" font-family="Georgia, STSong, serif" font-size="48" font-weight="700">自己的工具系统。</text>
-    {text_lines(wrap(p["story"], 50), 2, 166, 19, PALETTE["muted"], 650)}
-    <g transform="translate(0 272)">
-      <rect x="0" y="0" width="168" height="54" rx="14" fill="#0d3027" stroke="#3b7a68"/>
-      <rect x="184" y="0" width="168" height="54" rx="14" fill="#0d3027" stroke="#3b7a68"/>
-      <rect x="368" y="0" width="168" height="54" rx="14" fill="#0d3027" stroke="#3b7a68"/>
-      <text x="18" y="23" fill="{PALETTE['green']}" font-family="Menlo, Consolas, monospace" font-size="11">TRACK 01</text>
-      <text x="18" y="42" fill="{PALETTE['paper']}" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="16" font-weight="800">AI 工具实验</text>
-      <text x="202" y="23" fill="{PALETTE['blue']}" font-family="Menlo, Consolas, monospace" font-size="11">TRACK 02</text>
-      <text x="202" y="42" fill="{PALETTE['paper']}" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="16" font-weight="800">内容系统建设</text>
-      <text x="386" y="23" fill="{PALETTE['lime']}" font-family="Menlo, Consolas, monospace" font-size="11">TRACK 03</text>
-      <text x="386" y="42" fill="{PALETTE['paper']}" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="16" font-weight="800">视觉设计</text>
-    </g>
-    <text x="0" y="370" fill="{PALETTE['blue']}" font-family="Menlo, Consolas, monospace" font-size="14">{esc(p['website'])}</text>
+  <text x="425" y="42" fill="{PALETTE['text']}" text-anchor="middle" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="24" font-weight="800">siuserxiaowei</text>
+  <text x="425" y="66" fill="{PALETTE['soft']}" text-anchor="middle" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="15">Beginner to Builder · AI Tools · Knowledge Systems · Visual Design</text>
+  <g transform="translate(0 12)">
+    {orbit(425, 148, 290, 34, PALETTE["cyan"], -4, 0.58)}
+    {orbit(425, 148, 224, 30, PALETTE["amber"], 13, 0.52)}
+    {orbit(425, 148, 170, 34, PALETTE["purple"], -17, 0.58)}
+    <circle cx="425" cy="148" r="26" fill="#0b1525" stroke="{PALETTE['cyan']}" stroke-width="2"/>
+    <circle cx="425" cy="148" r="14" fill="#102744" stroke="{PALETTE['cyan']}" stroke-opacity="0.7"/>
+    <text x="425" y="155" fill="{PALETTE['cyan']}" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="18" font-weight="800">S</text>
+    {orbit_node(425, 148, 290, 34, 18, PALETTE["cyan"], -4)[2]}
+    {orbit_node(425, 148, 290, 34, 202, PALETTE["cyan"], -4)[2]}
+    {orbit_node(425, 148, 224, 30, 42, PALETTE["amber"], 13)[2]}
+    {orbit_node(425, 148, 224, 30, 190, PALETTE["amber"], 13)[2]}
+    {orbit_node(425, 148, 170, 34, 96, PALETTE["purple"], -17)[2]}
+    {orbit_node(425, 148, 170, 34, 246, PALETTE["purple"], -17)[2]}
+    <text x="196" y="126" fill="{PALETTE['purple']}" font-family="Menlo, Consolas, monospace" font-size="13">Codex</text>
+    <text x="260" y="169" fill="{PALETTE['blue']}" font-family="Menlo, Consolas, monospace" font-size="13">Python</text>
+    <text x="288" y="226" fill="{PALETTE['amber']}" font-family="Menlo, Consolas, monospace" font-size="13">GitHub Pages</text>
+    <text x="523" y="110" fill="{PALETTE['cyan']}" font-family="Menlo, Consolas, monospace" font-size="13">Obsidian</text>
+    <text x="558" y="169" fill="{PALETTE['amber']}" font-family="Menlo, Consolas, monospace" font-size="13">Automation</text>
+    <text x="662" y="152" fill="{PALETTE['cyan']}" font-family="Menlo, Consolas, monospace" font-size="13">Visual Taste</text>
   </g>
-  <g transform="translate(642 70)">
-    <rect x="0" y="0" width="214" height="258" rx="28" fill="#0d3027" stroke="#3b7a68"/>
-    <text x="26" y="42" fill="{PALETTE['green']}" font-family="Menlo, Consolas, monospace" font-size="12" letter-spacing="2">LAB STATUS</text>
-    <circle cx="108" cy="132" r="66" fill="none" stroke="#63d8ff" stroke-opacity="0.32"/>
-    <circle cx="108" cy="132" r="38" fill="none" stroke="#00e6a8" stroke-opacity="0.5"/>
-    <path d="M108 56L179 173H37L108 56Z" fill="#0b211a" stroke="#00e6a8" stroke-width="2"/>
-    <circle cx="108" cy="132" r="9" fill="#d8ff6a" filter="url(#glow)"/>
-    <circle cx="108" cy="56" r="6" fill="#00e6a8"/>
-    <circle cx="179" cy="173" r="6" fill="#63d8ff"/>
-    <circle cx="37" cy="173" r="6" fill="#d8ff6a"/>
-    <text x="28" y="226" fill="{PALETTE['paper']}" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="17" font-weight="900">notes -> tools</text>
-  </g>
+  <text x="425" y="282" fill="{PALETTE['soft']}" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="14" font-style="italic">"{esc(profile['philosophy'])}"</text>
 """
-    return svg_frame(920, 430, "学习实验室", body, PALETTE["green"])
+    return svg_frame(850, 310, "Galaxy Header", body, PALETTE["cyan"])
 
 
-def render_skill_radar(data: dict) -> str:
-    tracks = data["tracks"]
-    cx, cy = 210, 176
-    radius = 116
-    angles = [-90, 30, 150]
-    rings = []
-    for scale in [0.33, 0.66, 1.0]:
-        pts = []
-        for angle in angles:
-            rad = math.radians(angle)
-            pts.append((cx + math.cos(rad) * radius * scale, cy + math.sin(rad) * radius * scale))
-        rings.append('<polygon points="{}" fill="none" stroke="#4d9582" stroke-opacity="0.5"/>'.format(" ".join(f"{x:.1f},{y:.1f}" for x, y in pts)))
-    values = []
-    for track, angle in zip(tracks, angles):
-        rad = math.radians(angle)
-        value = radius * int(track["score"]) / 100
-        values.append((cx + math.cos(rad) * value, cy + math.sin(rad) * value))
-
-    track_rows = []
-    for idx, track in enumerate(tracks):
-        y = 88 + idx * 92
-        track_rows.append(f"""
-    <g transform="translate(472 {y})">
-      <rect x="0" y="0" width="370" height="68" rx="16" fill="#0c2a23" stroke="#2e6b5a"/>
-      <circle cx="24" cy="34" r="8" fill="{esc(track['color'])}"/>
-      <text x="44" y="26" fill="{PALETTE['paper']}" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="19" font-weight="800">{esc(track['name'])}</text>
-      <text x="44" y="50" fill="{PALETTE['muted']}" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="13">{esc(track['summary'])}</text>
+def render_mission_telemetry(data: dict) -> str:
+    metrics = data["metrics"]
+    icon_colors = [PALETTE["cyan"], PALETTE["amber"], PALETTE["purple"], PALETTE["cyan"], PALETTE["purple"]]
+    columns = []
+    for idx, item in enumerate(metrics[:5]):
+        x = 60 + idx * 146
+        color = icon_colors[idx % len(icon_colors)]
+        divider = "" if idx == 0 else f'<path d="M{x - 32} 72V162" stroke="#23364d" stroke-opacity="0.75"/>'
+        columns.append(f"""
+    {divider}
+    <g transform="translate({x} 0)">
+      <circle cx="18" cy="69" r="8" fill="none" stroke="{color}" stroke-width="3"/>
+      <circle cx="18" cy="69" r="3" fill="{color}"/>
+      <text x="18" y="112" fill="{PALETTE['text']}" text-anchor="middle" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="36" font-weight="900">{esc(item['value'])}</text>
+      <text x="18" y="142" fill="{PALETTE['soft']}" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="14" letter-spacing="3">{esc(item['label'])}</text>
     </g>""")
-
     body = f"""
-  <text x="48" y="54" fill="{PALETTE['blue']}" font-family="Menlo, Consolas, monospace" font-size="14" letter-spacing="4">SKILL RADAR</text>
-  <text x="48" y="91" fill="{PALETTE['paper']}" font-family="Georgia, STSong, serif" font-size="36" font-weight="700">三条能力主线</text>
-  <g>
-    {' '.join(rings)}
-    <line x1="{cx}" y1="{cy}" x2="{cx}" y2="{cy - radius}" stroke="#63d8ff" stroke-opacity="0.45"/>
-    <line x1="{cx}" y1="{cy}" x2="{cx + radius * 0.866:.1f}" y2="{cy + radius * 0.5:.1f}" stroke="#63d8ff" stroke-opacity="0.45"/>
-    <line x1="{cx}" y1="{cy}" x2="{cx - radius * 0.866:.1f}" y2="{cy + radius * 0.5:.1f}" stroke="#63d8ff" stroke-opacity="0.45"/>
-    <polygon points="{' '.join(f'{x:.1f},{y:.1f}' for x, y in values)}" fill="#00e6a8" fill-opacity="0.22" stroke="#00e6a8" stroke-width="3"/>
-    <circle cx="{cx}" cy="{cy}" r="5" fill="#d8ff6a"/>
-    <text x="156" y="38" fill="{PALETTE['paper']}" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="15" font-weight="700">AI 工具实验</text>
-    <text x="274" y="267" fill="{PALETTE['paper']}" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="15" font-weight="700">内容系统</text>
-    <text x="34" y="267" fill="{PALETTE['paper']}" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="15" font-weight="700">视觉设计</text>
-  </g>
-  {''.join(track_rows)}
+  <text x="42" y="55" fill="{PALETTE['soft']}" font-family="Menlo, Consolas, monospace" font-size="14" letter-spacing="7">MISSION TELEMETRY</text>
+  <g>{''.join(columns)}</g>
 """
-    return svg_frame(920, 390, "能力雷达", body, PALETTE["blue"])
+    return svg_frame(850, 200, "Mission Telemetry", body, PALETTE["purple"])
 
 
-def render_project_map(data: dict) -> str:
+def render_tech_stack(data: dict) -> str:
+    tracks = data["tracks"]
+    lanes = []
+    for idx, track in enumerate(tracks):
+        x = 46 + idx * 262
+        color = track["color"]
+        tags = track.get("tags", [])[:4]
+        chips = []
+        for chip_idx, tag in enumerate(tags):
+            cx = 22 + (chip_idx % 2) * 108
+            cy = 112 + (chip_idx // 2) * 42
+            chips.append(f"""
+        <rect x="{cx}" y="{cy}" width="96" height="28" rx="14" fill="#0a1320" stroke="{color}" stroke-opacity="0.56"/>
+        <text x="{cx + 48}" y="{cy + 19}" fill="{PALETTE['text']}" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="10">{esc(tag)}</text>""")
+        lanes.append(f"""
+    <g transform="translate({x} 72)">
+      <rect width="234" height="150" rx="18" fill="#0d1522" stroke="#263951"/>
+      <text x="22" y="36" fill="{color}" font-family="Menlo, Consolas, monospace" font-size="12" letter-spacing="3">TRACK 0{idx + 1}</text>
+      <text x="22" y="66" fill="{PALETTE['text']}" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="22" font-weight="850">{esc(track['name'])}</text>
+      {''.join(chips)}
+    </g>""")
+    body = f"""
+  <text x="42" y="52" fill="{PALETTE['soft']}" font-family="Menlo, Consolas, monospace" font-size="14" letter-spacing="7">TECH STACK / LEARNING LANES</text>
+  {''.join(lanes)}
+"""
+    return svg_frame(850, 260, "Tech Stack", body, PALETTE["green"])
+
+
+def render_projects_constellation(data: dict) -> str:
     projects = data["projects"][:8]
-    coords = [(92, 116), (252, 82), (440, 132), (642, 92), (638, 226), (456, 258), (260, 260), (112, 230)]
-    palette = [PALETTE["green"], PALETTE["blue"], PALETTE["lime"], "#8df7d0"]
-    lines = []
+    coords = [(94, 112), (250, 78), (408, 120), (618, 88), (692, 204), (510, 242), (304, 236), (122, 214)]
+    colors = [PALETTE["cyan"], PALETTE["blue"], PALETTE["amber"], PALETTE["purple"], PALETTE["green"]]
+    paths = []
     nodes = []
     for idx, project in enumerate(projects):
         x, y = coords[idx]
+        color = colors[idx % len(colors)]
         if idx:
             px, py = coords[idx - 1]
-            lines.append(f'<path d="M{px} {py}C{(px + x) / 2:.1f} {py - 40},{(px + x) / 2:.1f} {y + 40},{x} {y}" stroke="#63d8ff" stroke-opacity="0.25"/>')
-        color = palette[idx % len(palette)]
+            paths.append(
+                f'<path d="M{px} {py}C{(px + x) / 2:.1f} {py - 52},{(px + x) / 2:.1f} {y + 48},{x} {y}" '
+                f'stroke="{color}" stroke-width="1.5" stroke-opacity="0.33"/>'
+            )
         nodes.append(f"""
     <g transform="translate({x} {y})">
-      <circle r="10" fill="{color}" filter="url(#glow)"/>
-      <rect x="18" y="-20" width="178" height="42" rx="12" fill="#0c2a23" stroke="#2e6b5a"/>
-      <text x="32" y="-2" fill="{PALETTE['paper']}" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="13" font-weight="800">{esc(SHORT_LABELS.get(project['name'], project['name']))}</text>
-      <text x="32" y="16" fill="{color}" font-family="Menlo, Consolas, monospace" font-size="11">{esc(project['track'])}</text>
+      <circle r="7.5" fill="{color}" filter="url(#glow)"/>
+      <text x="18" y="-4" fill="{PALETTE['text']}" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="14" font-weight="800">{esc(SHORT_LABELS.get(project['name'], project['name']))}</text>
+      <text x="18" y="15" fill="{color}" font-family="Menlo, Consolas, monospace" font-size="10">{esc(project['track'])}</text>
     </g>""")
     body = f"""
-  <text x="48" y="54" fill="{PALETTE['lime']}" font-family="Menlo, Consolas, monospace" font-size="14" letter-spacing="4">PROJECT MAP</text>
-  <text x="48" y="92" fill="{PALETTE['paper']}" font-family="Georgia, STSong, serif" font-size="36" font-weight="700">把学习变成公开作品</text>
-  <g transform="translate(28 38)">
-    {''.join(lines)}
+  <text x="42" y="52" fill="{PALETTE['soft']}" font-family="Menlo, Consolas, monospace" font-size="14" letter-spacing="7">PROJECT CONSTELLATION</text>
+  <text x="42" y="84" fill="{PALETTE['text']}" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="22" font-weight="850">From notes to running tools</text>
+  <g transform="translate(18 34)">
+    {''.join(paths)}
     {''.join(nodes)}
   </g>
+  <text x="42" y="304" fill="{PALETTE['soft']}" font-family="Menlo, Consolas, monospace" font-size="13">visual-taste-lab · ai-coding-knowledge-framework · wechat-to-obsidian</text>
 """
-    return svg_frame(920, 370, "项目地图", body, PALETTE["lime"])
-
-
-def render_now_shipping(data: dict) -> str:
-    metrics = data["metrics"]
-    now = data["now"]
-    p = data["profile"]
-    project_index = {project["name"]: project for project in data["projects"]}
-    shipping = data.get("shipping", [])
-    colors = [PALETTE["green"], PALETTE["blue"], PALETTE["lime"]]
-
-    metric_cards = []
-    for idx, item in enumerate(metrics):
-        x = 48 + idx * 202
-        metric_cards.append(f"""
-    <g transform="translate({x} 98)">
-      <rect width="178" height="88" rx="18" fill="#0c2a23" stroke="#2e6b5a"/>
-      <text x="18" y="36" fill="{PALETTE['lime']}" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="28" font-weight="900">{esc(item['value'])}</text>
-      <text x="18" y="64" fill="{PALETTE['muted']}" font-family="Menlo, Consolas, monospace" font-size="12">{esc(item['label'])}</text>
-    </g>""")
-
-    shipping_cards = []
-    for idx, item in enumerate(shipping[:3]):
-        project = project_index.get(item["name"], {})
-        x = 48 + idx * 276
-        color = colors[idx]
-        shipping_cards.append(f"""
-    <g transform="translate({x} 224)">
-      <rect width="252" height="112" rx="20" fill="#0c2a23" stroke="#2e6b5a"/>
-      <text x="18" y="30" fill="{color}" font-family="Menlo, Consolas, monospace" font-size="12">{esc(item['status'])}</text>
-      <text x="18" y="58" fill="{PALETTE['paper']}" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="18" font-weight="900">{esc(SHORT_LABELS.get(item['name'], item['name']))}</text>
-      <text x="18" y="84" fill="{PALETTE['muted']}" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="13">{esc(item['line'])}</text>
-      <text x="18" y="104" fill="{color}" font-family="Menlo, Consolas, monospace" font-size="11">{esc(project.get('track', 'learning build'))}</text>
-    </g>""")
-
-    now_lines = []
-    for idx, item in enumerate(now):
-        y = 372 + idx * 30
-        color = colors[idx % len(colors)]
-        now_lines.append(f'<text x="86" y="{y}" fill="{PALETTE["muted"]}" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="15">{esc(item)}</text><circle cx="58" cy="{y - 6}" r="5" fill="{color}"/>')
-
-    body = f"""
-  <text x="48" y="54" fill="{PALETTE['amber']}" font-family="Menlo, Consolas, monospace" font-size="14" letter-spacing="4">NOW SHIPPING</text>
-  <text x="48" y="92" fill="{PALETTE['paper']}" font-family="Georgia, STSong, serif" font-size="36" font-weight="700">现在主推这三件事</text>
-  {''.join(metric_cards)}
-  {''.join(shipping_cards)}
-  {''.join(now_lines)}
-  <text x="48" y="478" fill="{PALETTE['blue']}" font-family="Menlo, Consolas, monospace" font-size="14">{esc(p['philosophy'])}</text>
-"""
-    return svg_frame(920, 520, "正在发布", body, PALETTE["amber"])
+    return svg_frame(850, 330, "Project Constellation", body, PALETTE["amber"])
 
 
 def main() -> None:
@@ -281,10 +261,10 @@ def main() -> None:
         if path.exists():
             path.unlink()
     files = {
-        "intro-lab.svg": render_intro_lab(data),
-        "skill-radar.svg": render_skill_radar(data),
-        "project-map.svg": render_project_map(data),
-        "now-shipping.svg": render_now_shipping(data),
+        "galaxy-header.svg": render_galaxy_header(data),
+        "mission-telemetry.svg": render_mission_telemetry(data),
+        "tech-stack.svg": render_tech_stack(data),
+        "projects-constellation.svg": render_projects_constellation(data),
     }
     for name, content in files.items():
         (OUT / name).write_text(content, encoding="utf-8")

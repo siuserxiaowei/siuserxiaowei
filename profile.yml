@@ -9,14 +9,16 @@ profile:
   philosophy: "先做出能用的版本，再把它变得清楚、漂亮、可复制。"
 
 metrics:
-  - label: "Public repos"
-    value: "20+"
-  - label: "Learning tracks"
+  - label: "Contribs"
+    value: "279"
+  - label: "Stars"
+    value: "59"
+  - label: "Tracks"
     value: "3"
-  - label: "Featured builds"
+  - label: "Builds"
     value: "8"
-  - label: "Main audience"
-    value: "AI beginners"
+  - label: "Repos"
+    value: "56"
 
 tracks:
   - name: "AI 工具实验"

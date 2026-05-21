@@ -1,0 +1,71 @@
+<svg width="850" height="200" viewBox="0 0 850 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Mission Telemetry</title>
+  <desc id="desc">Custom GitHub profile SVG for siuserxiaowei.</desc>
+  <defs>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#9b7cff" stop-opacity="0.36"/>
+      <stop offset="0.42" stop-color="#10233b" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#070b13" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="850" y2="200">
+      <stop offset="0" stop-color="#0d1522"/>
+      <stop offset="0.58" stop-color="#09101b"/>
+      <stop offset="1" stop-color="#11192a"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="850" height="200" rx="18" fill="url(#panel)"/>
+  <rect x="1" y="1" width="848" height="198" rx="17" stroke="#273a52"/>
+  <rect width="850" height="200" rx="18" fill="url(#core)"/>
+  <g opacity="0.72"><circle cx="35" cy="74" r="1.8" fill="#00d9ff" opacity="0.8"/>
+<circle cx="126" cy="118" r="0.9" fill="#f6a623" opacity="0.8"/>
+<circle cx="208" cy="48" r="1.1" fill="#9b7cff" opacity="0.8"/>
+<circle cx="247" cy="179" r="1.0" fill="#8fa1ba" opacity="0.8"/>
+<circle cx="298" cy="96" r="1.3" fill="#00d9ff" opacity="0.8"/>
+<circle cx="387" cy="137" r="1.5" fill="#8fa1ba" opacity="0.8"/>
+<circle cx="428" cy="64" r="1.0" fill="#9b7cff" opacity="0.8"/>
+<circle cx="519" cy="87" r="1.3" fill="#00d9ff" opacity="0.8"/>
+<circle cx="562" cy="152" r="1.0" fill="#8fa1ba" opacity="0.8"/>
+<circle cx="606" cy="42" r="1.5" fill="#9b7cff" opacity="0.8"/>
+<circle cx="690" cy="111" r="1.8" fill="#00d9ff" opacity="0.8"/>
+<circle cx="781" cy="71" r="1.2" fill="#8fa1ba" opacity="0.8"/></g>
+  
+  <text x="42" y="55" fill="#8fa1ba" font-family="Menlo, Consolas, monospace" font-size="14" letter-spacing="7">MISSION TELEMETRY</text>
+  <g>
+    
+    <g transform="translate(60 0)">
+      <circle cx="18" cy="69" r="8" fill="none" stroke="#00d9ff" stroke-width="3"/>
+      <circle cx="18" cy="69" r="3" fill="#00d9ff"/>
+      <text x="18" y="112" fill="#f4f7fb" text-anchor="middle" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="36" font-weight="900">279</text>
+      <text x="18" y="142" fill="#8fa1ba" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="14" letter-spacing="3">Contribs</text>
+    </g>
+    <path d="M174 72V162" stroke="#23364d" stroke-opacity="0.75"/>
+    <g transform="translate(206 0)">
+      <circle cx="18" cy="69" r="8" fill="none" stroke="#f6a623" stroke-width="3"/>
+      <circle cx="18" cy="69" r="3" fill="#f6a623"/>
+      <text x="18" y="112" fill="#f4f7fb" text-anchor="middle" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="36" font-weight="900">59</text>
+      <text x="18" y="142" fill="#8fa1ba" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="14" letter-spacing="3">Stars</text>
+    </g>
+    <path d="M320 72V162" stroke="#23364d" stroke-opacity="0.75"/>
+    <g transform="translate(352 0)">
+      <circle cx="18" cy="69" r="8" fill="none" stroke="#9b7cff" stroke-width="3"/>
+      <circle cx="18" cy="69" r="3" fill="#9b7cff"/>
+      <text x="18" y="112" fill="#f4f7fb" text-anchor="middle" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="36" font-weight="900">3</text>
+      <text x="18" y="142" fill="#8fa1ba" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="14" letter-spacing="3">Tracks</text>
+    </g>
+    <path d="M466 72V162" stroke="#23364d" stroke-opacity="0.75"/>
+    <g transform="translate(498 0)">
+      <circle cx="18" cy="69" r="8" fill="none" stroke="#00d9ff" stroke-width="3"/>
+      <circle cx="18" cy="69" r="3" fill="#00d9ff"/>
+      <text x="18" y="112" fill="#f4f7fb" text-anchor="middle" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="36" font-weight="900">8</text>
+      <text x="18" y="142" fill="#8fa1ba" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="14" letter-spacing="3">Builds</text>
+    </g>
+    <path d="M612 72V162" stroke="#23364d" stroke-opacity="0.75"/>
+    <g transform="translate(644 0)">
+      <circle cx="18" cy="69" r="8" fill="none" stroke="#9b7cff" stroke-width="3"/>
+      <circle cx="18" cy="69" r="3" fill="#9b7cff"/>
+      <text x="18" y="112" fill="#f4f7fb" text-anchor="middle" font-family="Avenir Next, Noto Sans SC, sans-serif" font-size="36" font-weight="900">56</text>
+      <text x="18" y="142" fill="#8fa1ba" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="14" letter-spacing="3">Repos</text>
+    </g></g>
+
+</svg>
