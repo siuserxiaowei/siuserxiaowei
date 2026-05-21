@@ -1,5 +1,5 @@
 <svg width="920" height="370" viewBox="0 0 920 370" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">项目星座</title>
+  <title id="title">项目地图</title>
   <desc id="desc">Generated profile visual for siuserxiaowei.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="920" y2="370">
@@ -8,7 +8,7 @@
       <stop offset="1" stop-color="#092f3a"/>
     </linearGradient>
     <radialGradient id="pulse" cx="50%" cy="36%" r="70%">
-      <stop offset="0" stop-color="#00e6a8" stop-opacity="0.28"/>
+      <stop offset="0" stop-color="#d8ff6a" stop-opacity="0.28"/>
       <stop offset="0.45" stop-color="#63d8ff" stop-opacity="0.09"/>
       <stop offset="1" stop-color="#07130f" stop-opacity="0"/>
     </radialGradient>
@@ -51,7 +51,7 @@
     <path d="M0 360H920" stroke="#6bdcc6" stroke-width="0.6"/>
   </g>
   
-  <text x="48" y="54" fill="#00e6a8" font-family="Menlo, Consolas, monospace" font-size="14" letter-spacing="4">PROJECT CONSTELLATION</text>
+  <text x="48" y="54" fill="#d8ff6a" font-family="Menlo, Consolas, monospace" font-size="14" letter-spacing="4">PROJECT MAP</text>
   <text x="48" y="92" fill="#f7f5ea" font-family="Georgia, STSong, serif" font-size="36" font-weight="700">把学习变成公开作品</text>
   <g transform="translate(28 38)">
     <path d="M92 116C172.0 76,172.0 122,252 82" stroke="#63d8ff" stroke-opacity="0.25"/><path d="M252 82C346.0 42,346.0 172,440 132" stroke="#63d8ff" stroke-opacity="0.25"/><path d="M440 132C541.0 92,541.0 132,642 92" stroke="#63d8ff" stroke-opacity="0.25"/><path d="M642 92C640.0 52,640.0 266,638 226" stroke="#63d8ff" stroke-opacity="0.25"/><path d="M638 226C547.0 186,547.0 298,456 258" stroke="#63d8ff" stroke-opacity="0.25"/><path d="M456 258C358.0 218,358.0 300,260 260" stroke="#63d8ff" stroke-opacity="0.25"/><path d="M260 260C186.0 220,186.0 270,112 230" stroke="#63d8ff" stroke-opacity="0.25"/>

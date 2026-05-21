@@ -8,7 +8,7 @@
       <stop offset="1" stop-color="#092f3a"/>
     </linearGradient>
     <radialGradient id="pulse" cx="50%" cy="36%" r="70%">
-      <stop offset="0" stop-color="#00e6a8" stop-opacity="0.28"/>
+      <stop offset="0" stop-color="#63d8ff" stop-opacity="0.28"/>
       <stop offset="0.45" stop-color="#63d8ff" stop-opacity="0.09"/>
       <stop offset="1" stop-color="#07130f" stop-opacity="0"/>
     </radialGradient>
@@ -51,7 +51,7 @@
     <path d="M0 360H920" stroke="#6bdcc6" stroke-width="0.6"/>
   </g>
   
-  <text x="48" y="54" fill="#00e6a8" font-family="Menlo, Consolas, monospace" font-size="14" letter-spacing="4">CAPABILITY RADAR</text>
+  <text x="48" y="54" fill="#63d8ff" font-family="Menlo, Consolas, monospace" font-size="14" letter-spacing="4">SKILL RADAR</text>
   <text x="48" y="91" fill="#f7f5ea" font-family="Georgia, STSong, serif" font-size="36" font-weight="700">三条能力主线</text>
   <g>
     <polygon points="210.0,137.7 243.2,195.1 176.8,195.1" fill="none" stroke="#4d9582" stroke-opacity="0.5"/> <polygon points="210.0,99.4 276.3,214.3 143.7,214.3" fill="none" stroke="#4d9582" stroke-opacity="0.5"/> <polygon points="210.0,60.0 310.5,234.0 109.5,234.0" fill="none" stroke="#4d9582" stroke-opacity="0.5"/>

@@ -12,6 +12,8 @@
 
 - SVG panels use dark structured backgrounds, thin coordinate grids, glowing learning nodes, and restrained labels.
 - README text stays concise and link-heavy; the visuals create memory, the Markdown creates clickability.
+- SVG asset names follow the visible module roles: `intro-lab`, `skill-radar`, `project-map`, `now-shipping`.
+- The visual README should feel like a learning lab dashboard, not a copied galaxy theme.
 - Avoid fake metrics, fake awards, and overclaiming expertise. The story is learning-in-public plus working artifacts.
 
 ## Anti-Patterns
