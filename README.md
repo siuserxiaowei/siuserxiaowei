@@ -63,12 +63,14 @@
 
 ## Project Map / 项目地图
 
-> Public profile index adjusted on 2026-06-15. Useful skills and original tools are listed first; meeting-note breakdowns and auto-generated archives are grouped at the bottom.
+> Public profile index adjusted on 2026-06-15. Useful skills and original tools are listed first; meeting-note breakdowns and auto-generated archives are grouped at the bottom. On 2026-06-15, 122 non-archived project repositories also received a full README guide block with purpose, online entry, learning path, clone command, local run notes, repository map, and maintenance notes.
 
 | Scope | Count | Note |
 | --- | ---: | --- |
-| Public repositories / 公开仓库 | 97 | Listed below once with Chinese and English introductions |
-| Meeting/archive outputs / 会议与归档输出 | 51 | Collapsed at the bottom to keep the profile focused on original work |
+| README guides standardized / 已补完整 README 指南 | 122 | Public and private non-archived project repositories; the profile README is handled separately |
+| GitHub Pages links detected / 已识别在线入口 | 84 | Written into each repository README; missing Homepage fields were filled where GitHub Pages was enabled |
+| Homepage fields completed / 已补仓库 Homepage | 24 | GitHub repository sidebar now points to the live page when available |
+| Meeting/archive outputs / 会议与归档输出 | 58 | Standardized in their own README files; public highlights remain collapsed below |
 
 ### 核心原创项目 / Featured Original Projects
 
