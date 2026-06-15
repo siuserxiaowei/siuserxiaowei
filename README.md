@@ -22,34 +22,59 @@
 
 <br/>
 
-## Now Shipping
+## Useful Skills & Tools / 置顶技能工具
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
+      <h3>xiaowei-goal</h3>
+      <p>把调研、产品、SEO、增长任务收束成可执行的 /goal 工作流。</p>
+      <p><a href="https://github.com/siuserxiaowei/xiaowei-goal"><strong>Repo</strong></a></p>
+    </td>
+    <td width="33%" valign="top">
       <h3>visual-taste-lab</h3>
       <p>让 AI 先做视觉身份审计，再写页面，减少模板味。</p>
       <p><a href="https://github.com/siuserxiaowei/visual-taste-lab"><strong>Repo</strong></a> · <a href="https://siuserxiaowei.github.io/visual-taste-lab/">Live demo</a></p>
     </td>
-    <td width="50%" valign="top">
-      <h3>AI Coding Knowledge Framework</h3>
-      <p>把 AI 编程背后的工程纪律整理成可阅读框架。</p>
-      <p><a href="https://github.com/siuserxiaowei/ai-coding-knowledge-framework"><strong>Repo</strong></a> · <a href="https://siuserxiaowei.github.io/ai-coding-knowledge-framework/">Live demo</a></p>
+    <td width="33%" valign="top">
+      <h3>miaoji-s</h3>
+      <p>监控飞书会议，把纪要收口成结构化知识资产。</p>
+      <p><a href="https://github.com/siuserxiaowei/miaoji-s"><strong>Repo</strong></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <h3>wechat-daily-report-skill</h3>
+      <p>把微信群聊整理成社区运营日报和 AI 摘要报告。</p>
+      <p><a href="https://github.com/siuserxiaowei/wechat-daily-report-skill"><strong>Repo</strong></a> · <a href="https://siuserxiaowei.github.io/wechat-daily-report-skill/">Live demo</a></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>alive-writer-skill</h3>
+      <p>把 AI 文案改写成更自然、更像真人表达的写作 Skill。</p>
+      <p><a href="https://github.com/siuserxiaowei/alive-writer-skill"><strong>Repo</strong></a></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>feishu-claude-code-bridge</h3>
+      <p>连接飞书协作和 AI 编程工作流的团队自动化工具。</p>
+      <p><a href="https://github.com/siuserxiaowei/feishu-claude-code-bridge"><strong>Repo</strong></a></p>
     </td>
   </tr>
 </table>
 
 ## Project Map / 项目地图
 
-> Public profile index regenerated on 2026-06-03. Original product/tool projects are listed first; meeting notes and auto-generated archives are grouped at the bottom.
+> Public profile index adjusted on 2026-06-15. Useful skills and original tools are listed first; meeting-note breakdowns and auto-generated archives are grouped at the bottom.
 
 | Scope | Count | Note |
 | --- | ---: | --- |
-| Public repositories / 公开仓库 | 96 | Listed below once with Chinese and English introductions |
-| Meeting/archive outputs / 会议与归档输出 | 50 | Collapsed at the bottom to keep the profile focused on original work |
+| Public repositories / 公开仓库 | 97 | Listed below once with Chinese and English introductions |
+| Meeting/archive outputs / 会议与归档输出 | 51 | Collapsed at the bottom to keep the profile focused on original work |
 
 ### 核心原创项目 / Featured Original Projects
 
+- [xiaowei-goal](https://github.com/siuserxiaowei/xiaowei-goal) `skill`
+  - 中文：Xiaowei 风格的 research-first Agent Skill，把 app、网站、SEO、增长和竞品任务转成可执行的 /goal 命令。
+  - English: Xiaowei-style research-first Agent Skill for turning app, website, SEO, growth, and competitor tasks into executable /goal commands.
 - [visual-taste-lab](https://github.com/siuserxiaowei/visual-taste-lab) `HTML`
   - 中文：视觉品味训练实验室：用 AI 先做视觉身份审计，再生成更少模板味的页面方案。
   - English: Visual taste lab that audits brand identity before generating less template-like AI-built pages.
@@ -214,10 +239,13 @@
   - English: X/Twitter content lab pages for viral content, creator tools, and social growth experiments.
 
 <details>
-<summary>会议纪要与自动归档 / Meeting Notes & Auto-generated Archives (50)</summary>
+<summary>会议纪要与自动归档 / Meeting Notes & Auto-generated Archives (51)</summary>
 
 > These repositories keep meeting reviews, Feishu Minutes exports, and generated GitHub Pages archives accessible without letting them dominate the public profile.
 
+- [ai-product-feishu-breakdowns-20260510](https://github.com/siuserxiaowei/ai-product-feishu-breakdowns-20260510) `HTML` `archive`
+  - 中文：2026-05-10 三篇飞书 AI 产品纪要独立拆解站，统一配置页收口文章链接和 Pages 配置。
+  - English: Standalone May 10, 2026 Feishu AI product meeting breakdown site with one config page for all three article links.
 - [2026-05-21-ai-obcnq3eg](https://github.com/siuserxiaowei/2026-05-21-ai-obcnq3eg) `archive` `auto-generated`
   - 中文：2026-05-21 AI 主题归档：自动生成的飞书纪要 GitHub Pages 页面。
   - English: 2026-05-21 AI topic archive, an auto-generated Feishu Minutes GitHub Pages site.
