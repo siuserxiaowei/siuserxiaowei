@@ -63,14 +63,40 @@
 
 ## Project Map / 项目地图
 
-> Public profile index adjusted on 2026-06-15. Useful skills and original tools are listed first; meeting-note breakdowns and auto-generated archives are grouped at the bottom. On 2026-06-15, 122 non-archived project repositories also received a full README guide block with purpose, online entry, learning path, clone command, local run notes, repository map, and maintenance notes.
+> Public profile index refreshed on 2026-06-24. Useful skills and original tools are listed first; meeting-note breakdowns and auto-generated archives stay grouped near the bottom. As of this update, 127 non-profile repositories include a bilingual README guide with project introduction, usage, entry points, local run notes, repository map, maintenance notes, and safety guidance. All 128 repository sidebar descriptions use Chinese and English.
 
 | Scope | Count | Note |
 | --- | ---: | --- |
-| README guides standardized / 已补完整 README 指南 | 122 | Public and private non-archived project repositories; the profile README is handled separately |
-| GitHub Pages links detected / 已识别在线入口 | 84 | Written into each repository README; missing Homepage fields were filled where GitHub Pages was enabled |
-| Homepage fields completed / 已补仓库 Homepage | 24 | GitHub repository sidebar now points to the live page when available |
-| Meeting/archive outputs / 会议与归档输出 | 58 | Standardized in their own README files; public highlights remain collapsed below |
+| README guides standardized / 已补双语 README 指南 | 127 | All non-profile repositories now include bilingual project intro, usage, entry points, local run notes, repository map, and safety notes |
+| Bilingual sidebar descriptions / 已补双语仓库短描述 | 128 | Every repository description now follows a Chinese + English format |
+| Live/Homepage links detected / 已识别在线入口 | 94 | Live links are surfaced in README guides when repository homepage metadata exists |
+| Repository visibility / 仓库可见性 | 114 public / 14 private | Public profile highlights public work; private repos keep internal descriptions and README guides |
+| Fork/reference repositories / Fork 与参考仓库 | 5 | Forks are labeled as references and preserve upstream context |
+| Public meeting/archive/breakdown outputs / 公开会议归档与拆解输出 | 65 | Auto-generated archives are grouped lower in the profile to keep the main map readable |
+
+<!-- SIUSER-RECENT-PROJECTS:START -->
+### 最近更新 / Recent Updates
+
+- [daily-hotboard-studio](https://github.com/siuserxiaowei/daily-hotboard-studio) `JavaScript`
+  - 中文：每日 AI 热榜工作台：基于 UAPI 热榜数据生成 AI 话题看板、摘要和配音素材。
+  - English: Daily AI hotboard studio for AI topic dashboards, digests, and voiceover material from UAPI hotboard data.
+- [upstream-procurement](https://github.com/siuserxiaowei/upstream-procurement) `TypeScript`
+  - 中文：上游采购与供应链协作：支持采购寻源、供应商协作和流程自动化。
+  - English: Upstream procurement workspace for sourcing, supplier collaboration, and workflow automation.
+- [miaoji-decon](https://github.com/siuserxiaowei/miaoji-decon) `project`
+  - 中文：妙记拆解复盘系统：监控飞书妙记，把会议自动拆成可学习、可追问、可归档的深度复盘。
+  - English: Meeting deconstruction system that turns Feishu minutes into learnable reviews and follow-up assets.
+- [safe-disk-cleanup-skill](https://github.com/siuserxiaowei/safe-disk-cleanup-skill) `PowerShell`
+  - 中文：安全磁盘清理 Skill：面向 Windows 与 macOS 的保守扫描、清理计划和低风险缓存清理流程。
+  - English: Conservative disk-cleanup skill for Windows and macOS with scan-first planning and low-risk cache cleanup.
+- [web-research-hive](https://github.com/siuserxiaowei/web-research-hive) `Python`
+  - 中文：公开网页研究工作流：把搜索结果、网页文本和资料笔记整理成可审计的证据卡片与研究报告。
+  - English: Public-web research workflow for auditable evidence cards and research reports.
+- [deckroutes](https://github.com/siuserxiaowei/deckroutes) `JavaScript`
+  - 中文：DeckRoutes 游戏攻略站：基于公开资料整理 Balatro 种子、路线、策略证据和后续选题机会。
+  - English: DeckRoutes game-guide site for Balatro seeds, routes, source-backed strategy evidence, and guide opportunities.
+
+<!-- SIUSER-RECENT-PROJECTS:END -->
 
 ### 核心原创项目 / Featured Original Projects
 
@@ -241,7 +267,7 @@
   - English: X/Twitter content lab pages for viral content, creator tools, and social growth experiments.
 
 <details>
-<summary>会议纪要与自动归档 / Meeting Notes & Auto-generated Archives (51)</summary>
+<summary>会议纪要与自动归档 / Meeting Notes & Auto-generated Archives (selected public highlights)</summary>
 
 > These repositories keep meeting reviews, Feishu Minutes exports, and generated GitHub Pages archives accessible without letting them dominate the public profile.
 
@@ -417,6 +443,22 @@
 **SEO 关键词 / SEO Keywords**: GitHub Profile README, AI portfolio, personal branding, SVG dashboard, AI 工具实验
 
 <!-- SIUSER-SEO-INTRO:END -->
+
+<!-- SIUSER-PROFILE-USAGE:START -->
+
+## 使用方式 / Usage
+
+### 中文
+1. 如果你在看公开主页，先从“置顶技能工具”和“项目地图”找到最接近你需求的项目。
+2. 打开对应仓库后，先读顶部双语 README guide，确认项目介绍、在线入口、本地运行命令和仓库结构。
+3. 对内容归档类项目，优先打开 Live / GitHub Pages；对工具或 Skill 类项目，优先查看 `README.md`、`SKILL.md`、`scripts/` 和测试说明。
+
+### English
+1. If you are browsing the public profile, start with Useful Skills & Tools and the Project Map to find the closest project.
+2. Open the repository and read the bilingual README guide first for the project introduction, live link, local commands, and repository map.
+3. For archive/content projects, start with the Live / GitHub Pages link; for tools or skills, start with `README.md`, `SKILL.md`, `scripts/`, and validation notes.
+
+<!-- SIUSER-PROFILE-USAGE:END -->
 
 <!-- SIUSER-CONTACT:START -->
 
