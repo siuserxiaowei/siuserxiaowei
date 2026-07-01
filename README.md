@@ -37,12 +37,17 @@
       <p><a href="https://github.com/siuserxiaowei/visual-taste-lab"><strong>Repo</strong></a> · <a href="https://siuserxiaowei.github.io/visual-taste-lab/">Live demo</a></p>
     </td>
     <td width="33%" valign="top">
-      <h3>miaoji-s</h3>
-      <p>监控飞书会议，把纪要收口成结构化知识资产。</p>
-      <p><a href="https://github.com/siuserxiaowei/miaoji-s"><strong>Repo</strong></a></p>
+      <h3>miaoji-decon</h3>
+      <p>监控飞书妙记，把会议拆成道法术器势复盘。</p>
+      <p><a href="https://github.com/siuserxiaowei/miaoji-decon"><strong>Repo</strong></a> · <a href="https://siuserxiaowei.github.io/miaoji-decon/">Live demo</a></p>
     </td>
   </tr>
   <tr>
+    <td width="33%" valign="top">
+      <h3>cinematic-ai-visual-prompt-hub</h3>
+      <p>电影级视觉提示词学习站：镜头语言、构图、布光、分镜和 AI 视频提示词资料库。</p>
+      <p><a href="https://github.com/siuserxiaowei/cinematic-ai-visual-prompt-hub"><strong>Repo</strong></a> · <a href="https://siuserxiaowei.github.io/cinematic-ai-visual-prompt-hub/">Live demo</a></p>
+    </td>
     <td width="33%" valign="top">
       <h3>wechat-daily-report-skill</h3>
       <p>把微信群聊整理成社区运营日报和 AI 摘要报告。</p>
@@ -53,6 +58,8 @@
       <p>把 AI 文案改写成更自然、更像真人表达的写作 Skill。</p>
       <p><a href="https://github.com/siuserxiaowei/alive-writer-skill"><strong>Repo</strong></a></p>
     </td>
+  </tr>
+  <tr>
     <td width="33%" valign="top">
       <h3>feishu-claude-code-bridge</h3>
       <p>连接飞书协作和 AI 编程工作流的团队自动化工具。</p>
@@ -63,16 +70,34 @@
 
 ## Project Map / 项目地图
 
-> Public profile index refreshed on 2026-06-24. Useful skills and original tools are listed first; meeting-note breakdowns and auto-generated archives stay grouped near the bottom. As of this update, 127 non-profile repositories include a bilingual README guide with project introduction, usage, entry points, local run notes, repository map, maintenance notes, and safety guidance. All 128 repository sidebar descriptions use Chinese and English.
+> Public profile reorganized on 2026-06-28 around **道 / 法 / 术 / 器 / 势**. I use this frame to turn meetings, chats, research, and product ideas into reusable knowledge assets, GitHub Pages, and small working tools.
 
 | Scope | Count | Note |
 | --- | ---: | --- |
-| README guides standardized / 已补双语 README 指南 | 127 | All non-profile repositories now include bilingual project intro, usage, entry points, local run notes, repository map, and safety notes |
-| Bilingual sidebar descriptions / 已补双语仓库短描述 | 128 | Every repository description now follows a Chinese + English format |
-| Live/Homepage links detected / 已识别在线入口 | 94 | Live links are surfaced in README guides when repository homepage metadata exists |
-| Repository visibility / 仓库可见性 | 114 public / 14 private | Public profile highlights public work; private repos keep internal descriptions and README guides |
-| Fork/reference repositories / Fork 与参考仓库 | 5 | Forks are labeled as references and preserve upstream context |
-| Public meeting/archive/breakdown outputs / 公开会议归档与拆解输出 | 65 | Auto-generated archives are grouped lower in the profile to keep the main map readable |
+| Public repositories checked / 已核对公开仓库 | 118 | Current public GitHub API view; private projects stay out of this public map |
+| Live/Homepage links detected / 已识别在线入口 | 92 | GitHub Pages, Vercel, and standalone public project links |
+| Fork/reference repositories / Fork 与参考仓库 | 5 | Kept as external references rather than original work |
+| Meeting/archive/breakdown outputs / 会议归档与拆解输出 | 65+ | Grouped lower so the main profile reads like a system, not a raw directory |
+
+### 道法术器势导航 / Operating Map
+
+| Layer | Meaning | Project families |
+| --- | --- | --- |
+| **道** | 沉淀原则、框架、判断标准和做事方式 | [xiaowei-goal](https://github.com/siuserxiaowei/xiaowei-goal), [ai-coding-knowledge-framework](https://github.com/siuserxiaowei/ai-coding-knowledge-framework), [visual-taste-lab](https://github.com/siuserxiaowei/visual-taste-lab), [web-research-hive](https://github.com/siuserxiaowei/web-research-hive) |
+| **法** | 把输入变成稳定流程：会议、微信、飞书、网页研究 | [miaoji-decon](https://github.com/siuserxiaowei/miaoji-decon), [miaoji-s](https://github.com/siuserxiaowei/miaoji-s), [wechat-to-obsidian](https://github.com/siuserxiaowei/wechat-to-obsidian), [wechat-obsidian-pipeline](https://github.com/siuserxiaowei/wechat-obsidian-pipeline), [feishu-claude-code-bridge](https://github.com/siuserxiaowei/feishu-claude-code-bridge) |
+| **术** | 具体执行技能：写作、选题、卡片、媒体和自动化脚本 | [content-creator-toolkit](https://github.com/siuserxiaowei/content-creator-toolkit), [alive-writer-skill](https://github.com/siuserxiaowei/alive-writer-skill), [x-md-composer](https://github.com/siuserxiaowei/x-md-composer), [CardBridge](https://github.com/siuserxiaowei/CardBridge), [psd-batch-tool](https://github.com/siuserxiaowei/psd-batch-tool) |
+| **器** | 可访问的工具、站点、工作台和展示入口 | [siuserxiaowei.github.io](https://github.com/siuserxiaowei/siuserxiaowei.github.io), [cinematic-ai-visual-prompt-hub](https://github.com/siuserxiaowei/cinematic-ai-visual-prompt-hub), [daily-hotboard-studio](https://github.com/siuserxiaowei/daily-hotboard-studio), [upstream-procurement](https://github.com/siuserxiaowei/upstream-procurement), [kb-copilot-demo](https://github.com/siuserxiaowei/kb-copilot-demo), [herclawai.com](https://github.com/siuserxiaowei/herclawai.com) |
+| **势** | 判断趋势、机会、市场和内容方向 | [opc-policy](https://github.com/siuserxiaowei/opc-policy), [stripe-solo-operators-report](https://github.com/siuserxiaowei/stripe-solo-operators-report), [ai-app-export-learning-hub](https://github.com/siuserxiaowei/ai-app-export-learning-hub), [chuhai-xuexi](https://github.com/siuserxiaowei/chuhai-xuexi), [moneyhunter-learning-hub](https://github.com/siuserxiaowei/moneyhunter-learning-hub) |
+
+### Main Threads / 主线项目
+
+| Thread | What it turns into | Start here |
+| --- | --- | --- |
+| Meeting deconstruction / 会议拆解 | Feishu/Miaoji minutes become Dao-Fa-Shu-Qi-Shi pages, review indexes, and reusable knowledge blocks | [miaoji-decon](https://github.com/siuserxiaowei/miaoji-decon) -> [meeting-minutes-shu-fa-dao-qi-shi-pages](https://github.com/siuserxiaowei/meeting-minutes-shu-fa-dao-qi-shi-pages) |
+| WeChat to PKM / 微信到知识库 | WeChat files, links, and chat materials become Markdown, summaries, and Obsidian-ready assets | [wechat-to-obsidian](https://github.com/siuserxiaowei/wechat-to-obsidian) -> [wechat-obsidian-pipeline](https://github.com/siuserxiaowei/wechat-obsidian-pipeline) |
+| Research to report / 研究到报告 | Public web research becomes evidence cards, learning hubs, SEO pages, and GitHub Pages reports | [web-research-hive](https://github.com/siuserxiaowei/web-research-hive) -> [xiaowei-goal](https://github.com/siuserxiaowei/xiaowei-goal) |
+| Creator workflow / 创作者工作流 | Ideas become X/Twitter drafts, Xiaohongshu systems, cards, media assets, and daily topic boards | [content-creator-toolkit](https://github.com/siuserxiaowei/content-creator-toolkit) -> [x-md-composer](https://github.com/siuserxiaowei/x-md-composer) |
+| Operator tools / 运营工具 | Business, procurement, order, policy, and subscription notes become small usable workspaces | [upstream-procurement](https://github.com/siuserxiaowei/upstream-procurement) -> [opc-policy](https://github.com/siuserxiaowei/opc-policy) |
 
 <!-- SIUSER-RECENT-PROJECTS:START -->
 ### 最近更新 / Recent Updates
@@ -98,308 +123,43 @@
 
 <!-- SIUSER-RECENT-PROJECTS:END -->
 
-### 核心原创项目 / Featured Original Projects
+### Featured Projects / 核心项目
 
-- [xiaowei-goal](https://github.com/siuserxiaowei/xiaowei-goal) `skill`
-  - 中文：Xiaowei 风格的 research-first Agent Skill，把 app、网站、SEO、增长和竞品任务转成可执行的 /goal 命令。
-  - English: Xiaowei-style research-first Agent Skill for turning app, website, SEO, growth, and competitor tasks into executable /goal commands.
-- [visual-taste-lab](https://github.com/siuserxiaowei/visual-taste-lab) `HTML`
-  - 中文：视觉品味训练实验室：用 AI 先做视觉身份审计，再生成更少模板味的页面方案。
-  - English: Visual taste lab that audits brand identity before generating less template-like AI-built pages.
-- [ai-coding-knowledge-framework](https://github.com/siuserxiaowei/ai-coding-knowledge-framework) `HTML`
-  - 中文：AI 编程知识框架：把 agentic coding、软件工程纪律和提示词工程整理成系统化学习框架。
-  - English: AI coding knowledge framework for agentic coding, software engineering discipline, and prompt engineering.
-- [siuser-agent-network-workbench](https://github.com/siuserxiaowei/siuser-agent-network-workbench) `Python`
-  - 中文：Agent 网络工作台：实验多 Agent 协作、知识系统和自动化工作流。
-  - English: Agent network workbench for experimenting with multi-agent collaboration, knowledge systems, and automation workflows.
-- [feishu-claude-code-bridge](https://github.com/siuserxiaowei/feishu-claude-code-bridge) `JavaScript`
-  - 中文：飞书 Claude Code 桥接：连接飞书协作和 AI 编程工作流的团队自动化工具。
-  - English: Feishu Claude Code bridge for connecting team collaboration with AI coding workflows.
-- [content-creator-toolkit](https://github.com/siuserxiaowei/content-creator-toolkit) `Python`
-  - 中文：内容创作者工具箱：聚合创作者监控、AI 分析和选题自动化能力。
-  - English: Creator toolkit for creator monitoring, AI analysis, and content automation workflows.
-- [miaoji-decon](https://github.com/siuserxiaowei/miaoji-decon) `project`
-  - 中文：妙记拆解复盘系统：监控飞书妙记，把会议自动拆成可学习、可追问、可归档的深度复盘。
-  - English: Meeting deconstruction system that turns Feishu minutes into learnable reviews and follow-up assets.
-- [moneyhunter-learning-hub](https://github.com/siuserxiaowei/moneyhunter-learning-hub) `Python`
-  - 中文：MoneyHunter 学习库：把公开资料整理成可搜索、可筛选、可复盘的 GitHub Pages 学习站。
-  - English: MoneyHunter learning hub that turns public materials into a searchable, filterable GitHub Pages study site.
-- [chuhai-xuexi](https://github.com/siuserxiaowei/chuhai-xuexi) `HTML`
-  - 中文：出海学习库：镜像金山文档团队空间并生成互动学习页、飞书同步和资料索引。
-  - English: Overseas expansion learning hub mirroring KDocs materials into interactive pages, Feishu sync, and indexed resources.
-- [ai-app-export-learning-hub](https://github.com/siuserxiaowei/ai-app-export-learning-hub) `JavaScript`
-  - 中文：AI App 出海学习资料包：面向独立开发者和小团队的出海案例、学习路径、评分表与静态站。
-  - English: AI app export learning hub with case studies, learning paths, scorecards, and a static study site.
-- [upstream-procurement](https://github.com/siuserxiaowei/upstream-procurement) `TypeScript`
-  - 中文：上游采购与供应链协作：支持采购寻源、供应商协作和流程自动化。
-  - English: Upstream procurement workspace for sourcing, supplier collaboration, and workflow automation.
-- [x-md-composer](https://github.com/siuserxiaowei/x-md-composer) `JavaScript`
-  - 中文：X/Twitter Markdown 写作工具：把 Markdown 草稿整理成适合发布的推文、长帖和媒体内容。
-  - English: Markdown composer for turning drafts into publishable X/Twitter posts, threads, and media-ready content.
-- [wechat-obsidian-pipeline](https://github.com/siuserxiaowei/wechat-obsidian-pipeline) `Python`
-  - 中文：微信到 Obsidian 知识流水线：把微信资料清洗、摘要并同步成本地 Markdown 知识库。
-  - English: WeChat-to-Obsidian pipeline that cleans, summarizes, and syncs WeChat materials into a local Markdown knowledge base.
+| Project | Layer | Why it matters |
+| --- | --- | --- |
+| [miaoji-decon](https://github.com/siuserxiaowei/miaoji-decon) | 法 | 监控飞书妙记，把会议自动拆成可学习、可追问、可归档的复盘资产。 |
+| [meeting-minutes-shu-fa-dao-qi-shi-pages](https://github.com/siuserxiaowei/meeting-minutes-shu-fa-dao-qi-shi-pages) | 器 | 把“道法术器势”会议拆解公开成可浏览的 GitHub Pages 站点。 |
+| [xiaowei-goal](https://github.com/siuserxiaowei/xiaowei-goal) | 道 | 把调研、产品、SEO、增长、竞品任务收束成 evidence-first 的 `/goal` 工作流。 |
+| [visual-taste-lab](https://github.com/siuserxiaowei/visual-taste-lab) | 道 | 让 AI 先做视觉身份审计，再写页面，减少模板味。 |
+| [wechat-to-obsidian](https://github.com/siuserxiaowei/wechat-to-obsidian) | 法 | 把微信资料沉淀为 Markdown、摘要和个人知识库素材。 |
+| [wechat-daily-report-skill](https://github.com/siuserxiaowei/wechat-daily-report-skill) | 术 | 把微信群聊整理成社区运营日报和 AI 摘要报告。 |
+| [web-research-hive](https://github.com/siuserxiaowei/web-research-hive) | 法 | 把搜索结果、网页文本和资料笔记整理成可审计证据卡片。 |
+| [cinematic-ai-visual-prompt-hub](https://github.com/siuserxiaowei/cinematic-ai-visual-prompt-hub) | 器 | 把影视镜头语言、构图、布光、分镜和 AI 视频提示词整理成公开学习站。 |
+| [content-creator-toolkit](https://github.com/siuserxiaowei/content-creator-toolkit) | 术 | 聚合创作者监控、AI 分析和选题自动化能力。 |
+| [daily-hotboard-studio](https://github.com/siuserxiaowei/daily-hotboard-studio) | 器 | 基于热榜数据生成 AI 话题看板、摘要和配音素材。 |
+| [upstream-procurement](https://github.com/siuserxiaowei/upstream-procurement) | 器 | 采购寻源、供应商协作和流程自动化工作台。 |
 
-### AI 与 Agent 工具 / AI & Agent Tools
+### Project Families / 项目族
 
-- [clawhive-agent-sales-site](https://github.com/siuserxiaowei/clawhive-agent-sales-site) `JavaScript`
-  - 中文：Clawhive Agent 销售站：面向企业自动化与 AI Agent 服务的产品展示和转化页面。
-  - English: Clawhive Agent sales site for presenting business automation and AI agent services.
-- [kb-copilot-demo](https://github.com/siuserxiaowei/kb-copilot-demo) `Vue`
-  - 中文：知识库 Copilot 演示：展示 RAG、语义搜索和 AI 助手问答体验。
-  - English: Knowledge-base Copilot demo for RAG, semantic search, and AI assistant Q&A experiences.
-- [security-scan-skill](https://github.com/siuserxiaowei/security-scan-skill) `Python`
-  - 中文：本地安全扫描 Skill：检查 npm 供应链、依赖风险和潜在密钥泄露。
-  - English: Local security scan skill for npm supply-chain checks, dependency risk, and potential secret exposure.
-- [TTS-code](https://github.com/siuserxiaowei/TTS-code) `project`
-  - 中文：TTS 语音合成代码：用于文本转语音、音频自动化和语音生成实验。
-  - English: TTS codebase for text-to-speech, audio automation, and speech generation experiments.
-
-### 知识与内容系统 / Knowledge & Content Systems
-
-- [alive-writer-skill](https://github.com/siuserxiaowei/alive-writer-skill) `project`
-  - 中文：活人感写作 Skill：把 AI 写作、文案改写和内容人味化流程沉淀成技能。
-  - English: Humanized writing skill for AI writing, copy editing, and more natural content workflows.
-- [blog](https://github.com/siuserxiaowei/blog) `Astro`
-  - 中文：个人博客：记录 AI 工具、自动化、产品笔记和独立构建过程。
-  - English: Personal blog covering AI tools, automation, product notes, and indie building.
-- [CardBridge](https://github.com/siuserxiaowei/CardBridge) `JavaScript`
-  - 中文：卡片桥接工具：连接内容卡片、发布流程和视觉内容生产。
-  - English: CardBridge connects content cards, publishing workflows, and visual content production.
-- [daily-card-public](https://github.com/siuserxiaowei/daily-card-public) `HTML`
-  - 中文：日报知识卡片：公开输出 AI 摘要、知识卡片和内容设计实验。
-  - English: Daily knowledge cards for public AI summaries, knowledge-card output, and content design experiments.
-- [miaoji-s](https://github.com/siuserxiaowei/miaoji-s) `project`
-  - 中文：妙记+S Skill：监控飞书会议并把会议纪要收口成结构化知识资产。
-  - English: Miaoji+S skill for monitoring Feishu meetings and turning minutes into structured knowledge assets.
-- [qun-riba](https://github.com/siuserxiaowei/qun-riba) `HTML`
-  - 中文：微信群日报工具：面向聊天摘要、社群复盘和 AI 日报输出。
-  - English: WeChat group daily-report tool for chat summaries, community reviews, and AI report output.
-- [wechat-daily-report-skill](https://github.com/siuserxiaowei/wechat-daily-report-skill) `HTML`
-  - 中文：微信群日报 Skill：把微信群聊整理成社区运营日报和 AI 摘要报告。
-  - English: WeChat group daily-report skill for turning chats into community operation reports and AI summaries.
-- [wechat-to-obsidian](https://github.com/siuserxiaowei/wechat-to-obsidian) `Python`
-  - 中文：微信到 Obsidian 桥接工具：把微信资料沉淀为 Markdown、摘要和个人知识库素材。
-  - English: WeChat-to-Obsidian bridge for turning WeChat materials into Markdown, summaries, and PKM assets.
-- [xhs-skills-hub](https://github.com/siuserxiaowei/xhs-skills-hub) `project`
-  - 中文：小红书 Skill 中心：沉淀小红书内容策略、增长方法和自动化技能。
-  - English: Xiaohongshu skills hub for content strategy, growth methods, and automation skills.
-- [xiaohongshu](https://github.com/siuserxiaowei/xiaohongshu) `project`
-  - 中文：小红书内容工具：服务内容创作、账号增长和社交平台运营实验。
-  - English: Xiaohongshu content tool for content creation, account growth, and social platform experiments.
-
-### 设计与媒体工具 / Design & Media Tools
-
-- [AI-image-enlarge](https://github.com/siuserxiaowei/AI-image-enlarge) `TypeScript`
-  - 中文：AI 图片放大工具：用于图片超分辨率、画质增强和放大工作流。
-  - English: AI image enlargement tool for super-resolution, image enhancement, and upscaling workflows.
-- [ImageEnlarge](https://github.com/siuserxiaowei/ImageEnlarge) `project`
-  - 中文：图片放大工具：面向图片放大、图像处理和批量增强流程。
-  - English: Image enlargement tool for upscaling, image processing, and batch enhancement workflows.
-- [psd-batch-tool](https://github.com/siuserxiaowei/psd-batch-tool) `TypeScript`
-  - 中文：PSD 批处理工具：面向设计素材自动化、图片工作流和批量处理。
-  - English: PSD batch tool for design automation, image workflows, and bulk processing.
-- [twitter-media-downloader](https://github.com/siuserxiaowei/twitter-media-downloader) `HTML`
-  - 中文：Twitter/X 媒体下载工具：为创作者资料归档和媒体素材整理提供下载入口。
-  - English: Twitter/X media downloader for creator archives and media asset collection.
-
-### 商业与运营工具 / Business & Operations
-
-- [ai-pojucj](https://github.com/siuserxiaowei/ai-pojucj) `HTML`
-  - 中文：AI 破局财经内容实验：探索 AI 商业、财经内容和内容策略。
-  - English: AI business and finance content experiment for AI business, finance content, and content strategy.
-- [awesome-ai-subscription](https://github.com/siuserxiaowei/awesome-ai-subscription) `project`
-  - 中文：AI 订阅产品清单：整理 AI SaaS、订阅工具和产品参考。
-  - English: Awesome AI subscription list for AI SaaS products, subscription tools, and product references.
-- [jieyue](https://github.com/siuserxiaowei/jieyue) `HTML`
-  - 中文：节约与效率工具实验：探索生产力、自动化和成本优化方法。
-  - English: Efficiency and savings experiment for productivity, automation, and cost optimization.
-- [opc-policy](https://github.com/siuserxiaowei/opc-policy) `HTML`
-  - 中文：全国 OPC 政策导航：整理一人公司补贴、政策和资料检索入口。
-  - English: OPC policy navigator for one-person company subsidies, policies, and reference lookup.
-- [order-management-system](https://github.com/siuserxiaowei/order-management-system) `project`
-  - 中文：订单管理系统：支持订单流程、业务协作和运营自动化实验。
-  - English: Order management system for order workflows, business collaboration, and operations automation.
-- [poju-breakdown-site](https://github.com/siuserxiaowei/poju-breakdown-site) `HTML`
-  - 中文：破局案例拆解站：沉淀商业案例、增长策略和复盘分析。
-  - English: Case breakdown site for business examples, growth strategy, and review analysis.
-- [project-management](https://github.com/siuserxiaowei/project-management) `JavaScript`
-  - 中文：项目管理实践：沉淀 AI 工作流、任务追踪和协作管理方法。
-  - English: Project management practice repo for AI workflows, task tracking, and collaboration methods.
-
-### 学习库 / Learning Hubs
-
-- [stripe-solo-operators-report](https://github.com/siuserxiaowei/stripe-solo-operators-report) `HTML`
-  - 中文：Stripe Solo Operators 报告：整理一人公司、独立开发者和 AI 工具商业化趋势。
-  - English: Stripe Solo Operators report summarizing solo business, indie builder, and AI tooling trends.
-
-### 作品集与站点 / Portfolio & Sites
-
-- [siuserxiaowei](https://github.com/siuserxiaowei/siuserxiaowei) `Python`
-  - 中文：GitHub Profile README：个人公开项目主页，集中索引 AI 工具、内容系统和视觉作品集。
-  - English: GitHub Profile README that indexes public AI tools, content systems, and visual portfolio projects.
-- [siuserxiaowei.github.io](https://github.com/siuserxiaowei/siuserxiaowei.github.io) `HTML`
-  - 中文：个人 AI 作品集：展示 AI 工具、内容系统、视觉设计和 GitHub Pages 项目。
-  - English: Personal AI portfolio for AI tools, content systems, visual design, and GitHub Pages projects.
-
-### Fork 与参考项目 / Forks & References
-
-- [AQBot](https://github.com/siuserxiaowei/AQBot) `Rust` `fork / curated reference`
-  - 中文：跨平台 AI 对话与 AI 网关客户端（fork）：轻量高性能的桌面 AI 聊天入口。
-  - English: Forked cross-platform AI chat and gateway desktop client for lightweight high-performance conversations.
-- [awesome-codex-skills](https://github.com/siuserxiaowei/awesome-codex-skills) `Python` `fork / curated reference`
-  - 中文：Codex Skills 精选清单（fork）：整理可复用的 Codex CLI/API 自动化技能参考。
-  - English: Forked curated list of practical Codex skills for automating workflows across Codex CLI and API.
-- [indiehackers-steps](https://github.com/siuserxiaowei/indiehackers-steps) `fork / curated reference`
-  - 中文：独立开发者指南（fork）：围绕一人公司与独立开发路径的资料整理。
-  - English: Forked indie-hacker guide focused on one-person companies and independent product building.
-- [qiaomu-blog-opensource](https://github.com/siuserxiaowei/qiaomu-blog-opensource) `TypeScript` `fork / curated reference`
-  - 中文：Cloudflare 博客模板（fork）：基于 OpenNext、Next.js、D1 和 R2 的开源博客参考。
-  - English: Forked Cloudflare blog template based on OpenNext, Next.js, D1, and R2.
-
-### 其他实验 / Other Experiments
-
-- [Automatically-save-form-input](https://github.com/siuserxiaowei/Automatically-save-form-input) `JavaScript`
-  - 中文：自动保存表单输入：用于浏览器表单自动保存和用户体验改进。
-  - English: Form input autosave utility for browser form persistence and UX improvement.
-- [x-viral-lab-pages](https://github.com/siuserxiaowei/x-viral-lab-pages) `HTML`
-  - 中文：X/Twitter 内容实验页：展示爆款内容、创作者工具和社交增长实验。
-  - English: X/Twitter content lab pages for viral content, creator tools, and social growth experiments.
+| Family | Repositories |
+| --- | --- |
+| AI & Agent skills | [agent-task-spec](https://github.com/siuserxiaowei/agent-task-spec), [siuser-agent-network-workbench](https://github.com/siuserxiaowei/siuser-agent-network-workbench), [security-scan-skill](https://github.com/siuserxiaowei/security-scan-skill), [safe-disk-cleanup-skill](https://github.com/siuserxiaowei/safe-disk-cleanup-skill), [feishu-claude-code-bridge](https://github.com/siuserxiaowei/feishu-claude-code-bridge) |
+| Knowledge & content systems | [miaoji-s](https://github.com/siuserxiaowei/miaoji-s), [qun-riba](https://github.com/siuserxiaowei/qun-riba), [daily-card-public](https://github.com/siuserxiaowei/daily-card-public), [blog](https://github.com/siuserxiaowei/blog), [kb-copilot-demo](https://github.com/siuserxiaowei/kb-copilot-demo) |
+| Creator & social media | [x-md-composer](https://github.com/siuserxiaowei/x-md-composer), [xhs-skills-hub](https://github.com/siuserxiaowei/xhs-skills-hub), [xiaohongshu](https://github.com/siuserxiaowei/xiaohongshu), [x-viral-lab-pages](https://github.com/siuserxiaowei/x-viral-lab-pages), [twitter-media-downloader](https://github.com/siuserxiaowei/twitter-media-downloader), [CardBridge](https://github.com/siuserxiaowei/CardBridge) |
+| Learning hubs & breakdown sites | [cinematic-ai-visual-prompt-hub](https://github.com/siuserxiaowei/cinematic-ai-visual-prompt-hub), [ai-product-feishu-breakdowns-20260510](https://github.com/siuserxiaowei/ai-product-feishu-breakdowns-20260510), [yangge-business-mindset-pages](https://github.com/siuserxiaowei/yangge-business-mindset-pages), [hanghaijia-night-talk-breakdown](https://github.com/siuserxiaowei/hanghaijia-night-talk-breakdown), [wang-lei-ai-opc-breakdown](https://github.com/siuserxiaowei/wang-lei-ai-opc-breakdown), [poju-breakdown-site](https://github.com/siuserxiaowei/poju-breakdown-site) |
+| Design, image & media tools | [psd-batch-tool](https://github.com/siuserxiaowei/psd-batch-tool), [AI-image-enlarge](https://github.com/siuserxiaowei/AI-image-enlarge), [ImageEnlarge](https://github.com/siuserxiaowei/ImageEnlarge), [TTS-code](https://github.com/siuserxiaowei/TTS-code) |
+| Business & operations | [order-management-system](https://github.com/siuserxiaowei/order-management-system), [project-management](https://github.com/siuserxiaowei/project-management), [jieyue](https://github.com/siuserxiaowei/jieyue), [awesome-ai-subscription](https://github.com/siuserxiaowei/awesome-ai-subscription), [chatgpt-recharge-guide-2026](https://github.com/siuserxiaowei/chatgpt-recharge-guide-2026) |
+| Portfolio & product sites | [siuserxiaowei.github.io](https://github.com/siuserxiaowei/siuserxiaowei.github.io), [herclawai.com](https://github.com/siuserxiaowei/herclawai.com), [clawhive-agent-sales-site](https://github.com/siuserxiaowei/clawhive-agent-sales-site), [siuserxiaowei](https://github.com/siuserxiaowei/siuserxiaowei) |
+| Forks & references | [Agent-Reach](https://github.com/siuserxiaowei/Agent-Reach), [AQBot](https://github.com/siuserxiaowei/AQBot), [awesome-codex-skills](https://github.com/siuserxiaowei/awesome-codex-skills), [qiaomu-blog-opensource](https://github.com/siuserxiaowei/qiaomu-blog-opensource), [indiehackers-steps](https://github.com/siuserxiaowei/indiehackers-steps) |
 
 <details>
-<summary>会议纪要与自动归档 / Meeting Notes & Auto-generated Archives (selected public highlights)</summary>
+<summary>会议纪要与自动归档 / Meeting Notes & Auto-generated Archives</summary>
 
-> These repositories keep meeting reviews, Feishu Minutes exports, and generated GitHub Pages archives accessible without letting them dominate the public profile.
+> The auto-generated archive repositories stay discoverable here, while the top-level profile keeps the system map readable.
 
 - [ai-product-feishu-breakdowns-20260510](https://github.com/siuserxiaowei/ai-product-feishu-breakdowns-20260510) `HTML` `archive`
   - 中文：2026-05-10 三篇飞书 AI 产品纪要独立拆解站，统一配置页收口文章链接和 Pages 配置。
   - English: Standalone May 10, 2026 Feishu AI product meeting breakdown site with one config page for all three article links.
-- [2026-05-21-ai-obcnq3eg](https://github.com/siuserxiaowei/2026-05-21-ai-obcnq3eg) `archive` `auto-generated`
-  - 中文：2026-05-21 AI 主题归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-21 AI topic archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-21-ai-obcnq3h5](https://github.com/siuserxiaowei/2026-05-21-ai-obcnq3h5) `archive` `auto-generated`
-  - 中文：2026-05-21 AI 主题归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-21 AI topic archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-23-feishu-minutes-obcnrxri](https://github.com/siuserxiaowei/2026-05-23-feishu-minutes-obcnrxri) `archive` `auto-generated`
-  - 中文：2026-05-23 飞书会议纪要归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-23 Feishu Minutes archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-23-siuser-obcnrxfo](https://github.com/siuserxiaowei/2026-05-23-siuser-obcnrxfo) `archive` `auto-generated`
-  - 中文：2026-05-23 个人/团队讨论归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-23 personal or team discussion archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-25-feishu-minutes-obcntbzq](https://github.com/siuserxiaowei/2026-05-25-feishu-minutes-obcntbzq) `archive` `auto-generated`
-  - 中文：2026-05-25 飞书会议纪要归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-25 Feishu Minutes archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-26-ai-obcntqdu](https://github.com/siuserxiaowei/2026-05-26-ai-obcntqdu) `archive` `auto-generated`
-  - 中文：2026-05-26 AI 主题归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-26 AI topic archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-26-feishu-minutes-obcntpp1](https://github.com/siuserxiaowei/2026-05-26-feishu-minutes-obcntpp1) `archive` `auto-generated`
-  - 中文：2026-05-26 飞书会议纪要归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-26 Feishu Minutes archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-27-ai-obcnucp2](https://github.com/siuserxiaowei/2026-05-27-ai-obcnucp2) `archive` `auto-generated`
-  - 中文：2026-05-27 AI 主题归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-27 AI topic archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-27-ai-obcnucwb](https://github.com/siuserxiaowei/2026-05-27-ai-obcnucwb) `archive` `auto-generated`
-  - 中文：2026-05-27 AI 主题归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-27 AI topic archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-27-feishu-minutes-obcnuci1](https://github.com/siuserxiaowei/2026-05-27-feishu-minutes-obcnuci1) `archive` `auto-generated`
-  - 中文：2026-05-27 飞书会议纪要归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-27 Feishu Minutes archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-27-siuser-obcnup82](https://github.com/siuserxiaowei/2026-05-27-siuser-obcnup82) `archive` `auto-generated`
-  - 中文：2026-05-27 个人/团队讨论归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-27 personal or team discussion archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-29-1-obcnv7p1](https://github.com/siuserxiaowei/2026-05-29-1-obcnv7p1) `archive` `auto-generated`
-  - 中文：2026-05-29 编号 1 主题归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-29 topic 1 archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-29-ai-obcnv71u](https://github.com/siuserxiaowei/2026-05-29-ai-obcnv71u) `archive` `auto-generated`
-  - 中文：2026-05-29 AI 主题归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-29 AI topic archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-29-ai-obcnv7zu](https://github.com/siuserxiaowei/2026-05-29-ai-obcnv7zu) `archive` `auto-generated`
-  - 中文：2026-05-29 AI 主题归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-29 AI topic archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-29-ai-obcnv858](https://github.com/siuserxiaowei/2026-05-29-ai-obcnv858) `archive` `auto-generated`
-  - 中文：2026-05-29 AI 主题归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-29 AI topic archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-29-ai-obcnv8g7](https://github.com/siuserxiaowei/2026-05-29-ai-obcnv8g7) `archive` `auto-generated`
-  - 中文：2026-05-29 AI 主题归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-29 AI topic archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-29-ai-obcnv8oj](https://github.com/siuserxiaowei/2026-05-29-ai-obcnv8oj) `archive` `auto-generated`
-  - 中文：2026-05-29 AI 主题归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-29 AI topic archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-29-ai-obcnv8uc](https://github.com/siuserxiaowei/2026-05-29-ai-obcnv8uc) `archive` `auto-generated`
-  - 中文：2026-05-29 AI 主题归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-29 AI topic archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-29-ai-obcnv8w9](https://github.com/siuserxiaowei/2026-05-29-ai-obcnv8w9) `archive` `auto-generated`
-  - 中文：2026-05-29 AI 主题归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-29 AI topic archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-29-feishu-minutes-obcnv744](https://github.com/siuserxiaowei/2026-05-29-feishu-minutes-obcnv744) `archive` `auto-generated`
-  - 中文：2026-05-29 飞书会议纪要归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-29 Feishu Minutes archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-29-feishu-minutes-obcnv833](https://github.com/siuserxiaowei/2026-05-29-feishu-minutes-obcnv833) `archive` `auto-generated`
-  - 中文：2026-05-29 飞书会议纪要归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-29 Feishu Minutes archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-29-feishu-minutes-obcnwc1a](https://github.com/siuserxiaowei/2026-05-29-feishu-minutes-obcnwc1a) `archive` `auto-generated`
-  - 中文：2026-05-29 飞书会议纪要归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-29 Feishu Minutes archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-29-feishu-minutes-obcnwc97](https://github.com/siuserxiaowei/2026-05-29-feishu-minutes-obcnwc97) `archive` `auto-generated`
-  - 中文：2026-05-29 飞书会议纪要归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-29 Feishu Minutes archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-29-soundcore-work-05-27-19-14-obcnv8dm](https://github.com/siuserxiaowei/2026-05-29-soundcore-work-05-27-19-14-obcnv8dm) `archive` `auto-generated`
-  - 中文：2026-05-29 Soundcore 工作会 05-27-19-14归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-29 Soundcore work session 05-27-19-14 archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-29-soundcore-work-05-28-18-33-obcnv729](https://github.com/siuserxiaowei/2026-05-29-soundcore-work-05-28-18-33-obcnv729) `archive` `auto-generated`
-  - 中文：2026-05-29 Soundcore 工作会 05-28-18-33归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-29 Soundcore work session 05-28-18-33 archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-31-1-obcnxibt](https://github.com/siuserxiaowei/2026-05-31-1-obcnxibt) `archive` `auto-generated`
-  - 中文：2026-05-31 编号 1 主题归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-31 topic 1 archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-31-2-obcnxjm8](https://github.com/siuserxiaowei/2026-05-31-2-obcnxjm8) `archive` `auto-generated`
-  - 中文：2026-05-31 编号 2 主题归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-31 topic 2 archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-31-3-obcnxj3r](https://github.com/siuserxiaowei/2026-05-31-3-obcnxj3r) `archive` `auto-generated`
-  - 中文：2026-05-31 编号 3 主题归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-31 topic 3 archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-31-ai-obcnxh59](https://github.com/siuserxiaowei/2026-05-31-ai-obcnxh59) `archive` `auto-generated`
-  - 中文：2026-05-31 AI 主题归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-31 AI topic archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-31-app-1-obcnxi75](https://github.com/siuserxiaowei/2026-05-31-app-1-obcnxi75) `archive` `auto-generated`
-  - 中文：2026-05-31 App 主题 1归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-31 app topic 1 archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-31-app-2-obcnxiqo](https://github.com/siuserxiaowei/2026-05-31-app-2-obcnxiqo) `archive` `auto-generated`
-  - 中文：2026-05-31 App 主题 2归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-31 app topic 2 archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-31-feishu-minutes-obcnxhm8](https://github.com/siuserxiaowei/2026-05-31-feishu-minutes-obcnxhm8) `archive` `auto-generated`
-  - 中文：2026-05-31 飞书会议纪要归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-31 Feishu Minutes archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-05-31-feishu-minutes-obcnxiqa](https://github.com/siuserxiaowei/2026-05-31-feishu-minutes-obcnxiqa) `archive` `auto-generated`
-  - 中文：2026-05-31 飞书会议纪要归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-05-31 Feishu Minutes archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-06-01-siuser-obcnx3u5](https://github.com/siuserxiaowei/2026-06-01-siuser-obcnx3u5) `archive` `auto-generated`
-  - 中文：2026-06-01 个人/团队讨论归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-06-01 personal or team discussion archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-06-02-ai-obcnyst6](https://github.com/siuserxiaowei/2026-06-02-ai-obcnyst6) `archive` `auto-generated`
-  - 中文：2026-06-02 AI 主题归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-06-02 AI topic archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-06-02-aigc-workflow-obcnyp9p](https://github.com/siuserxiaowei/2026-06-02-aigc-workflow-obcnyp9p) `archive` `auto-generated`
-  - 中文：2026-06-02 AIGC 工作流归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-06-02 AIGC workflow archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-06-02-feishu-minutes-obcnytsq](https://github.com/siuserxiaowei/2026-06-02-feishu-minutes-obcnytsq) `archive` `auto-generated`
-  - 中文：2026-06-02 飞书会议纪要归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-06-02 Feishu Minutes archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-06-03-aigc-workflow-obcnzgdi](https://github.com/siuserxiaowei/2026-06-03-aigc-workflow-obcnzgdi) `archive` `auto-generated`
-  - 中文：2026-06-03 AIGC 工作流归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-06-03 AIGC workflow archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-06-03-feishu-minutes-obcnzg28](https://github.com/siuserxiaowei/2026-06-03-feishu-minutes-obcnzg28) `archive` `auto-generated`
-  - 中文：2026-06-03 飞书会议纪要归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-06-03 Feishu Minutes archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-06-03-feishu-minutes-obcnzgq4](https://github.com/siuserxiaowei/2026-06-03-feishu-minutes-obcnzgq4) `archive` `auto-generated`
-  - 中文：2026-06-03 飞书会议纪要归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-06-03 Feishu Minutes archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-06-03-soundcore-work-06-02-14-01-obcnzfoe](https://github.com/siuserxiaowei/2026-06-03-soundcore-work-06-02-14-01-obcnzfoe) `archive` `auto-generated`
-  - 中文：2026-06-03 Soundcore 工作会 06-02-14-01归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-06-03 Soundcore work session 06-02-14-01 archive, an auto-generated Feishu Minutes GitHub Pages site.
-- [2026-06-03-soundcore-work-06-02-14-02-obcnzfjk](https://github.com/siuserxiaowei/2026-06-03-soundcore-work-06-02-14-02-obcnzfjk) `archive` `auto-generated`
-  - 中文：2026-06-03 Soundcore 工作会 06-02-14-02归档：自动生成的飞书纪要 GitHub Pages 页面。
-  - English: 2026-06-03 Soundcore work session 06-02-14-02 archive, an auto-generated Feishu Minutes GitHub Pages site.
 - [ai-business-roundtable-2026-05-16](https://github.com/siuserxiaowei/ai-business-roundtable-2026-05-16) `archive`
   - 中文：AI 商业圆桌：围绕 AI product / growth / indie hacker / business model 的项目。
   - English: ai-business-roundtable-2026-05-16 for AI product, growth, indie hacker, business model.
@@ -425,6 +185,8 @@
   - 中文：生财联合办公分享会 Wiki：把深圳与广州分享会纪要整理成可检索的静态复盘站。
   - English: SCAI meeting minutes wiki that turns Shenzhen and Guangzhou sessions into a searchable review site.
 
+More date-based Feishu/Miaoji archives use the same pattern: `YYYY-MM-DD-topic-id`, with the public Pages link kept in each repository README.
+
 </details>
 
 ## Portfolio
@@ -436,11 +198,11 @@
 
 ## 项目介绍 / Project Introduction
 
-**中文介绍**：我的 GitHub Profile README，用视觉化模块展示 AI 工具实验、内容系统建设、视觉设计和正在构建的项目。
+**中文介绍**：我的 GitHub Profile README，用“道法术器势”组织 AI 工具实验、会议拆解、知识流水线、视觉设计和正在构建的项目。
 
-**English**: My GitHub Profile README, using visual SVG modules to present AI tool experiments, content systems, visual design, and active projects.
+**English**: My GitHub Profile README, organized around Dao/Fa/Shu/Qi/Shi for AI tool experiments, meeting breakdowns, knowledge pipelines, visual design, and active builds.
 
-**SEO 关键词 / SEO Keywords**: GitHub Profile README, AI portfolio, personal branding, SVG dashboard, AI 工具实验
+**SEO 关键词 / SEO Keywords**: GitHub Profile README, AI portfolio, 道法术器势, meeting breakdown, Feishu minutes, AI 工具实验
 
 <!-- SIUSER-SEO-INTRO:END -->
 
@@ -449,12 +211,12 @@
 ## 使用方式 / Usage
 
 ### 中文
-1. 如果你在看公开主页，先从“置顶技能工具”和“项目地图”找到最接近你需求的项目。
+1. 如果你在看公开主页，先从“置顶技能工具”和“道法术器势导航”找到最接近你需求的项目。
 2. 打开对应仓库后，先读顶部双语 README guide，确认项目介绍、在线入口、本地运行命令和仓库结构。
 3. 对内容归档类项目，优先打开 Live / GitHub Pages；对工具或 Skill 类项目，优先查看 `README.md`、`SKILL.md`、`scripts/` 和测试说明。
 
 ### English
-1. If you are browsing the public profile, start with Useful Skills & Tools and the Project Map to find the closest project.
+1. If you are browsing the public profile, start with Useful Skills & Tools and the Dao/Fa/Shu/Qi/Shi Operating Map to find the closest project.
 2. Open the repository and read the bilingual README guide first for the project introduction, live link, local commands, and repository map.
 3. For archive/content projects, start with the Live / GitHub Pages link; for tools or skills, start with `README.md`, `SKILL.md`, `scripts/`, and validation notes.
 
